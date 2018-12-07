@@ -1,1 +1,1 @@
-# jayneeauza.github.io
+# This is only a sample website
