@@ -1,0 +1,172 @@
+@charset "utf-8";
+@import url("animate.css");
+
+.cldiv {
+	border:1px solid black;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#divnav {
+	list-style:none;
+	padding-top:1em;
+}
+
+#divnav a {
+	text-decoration:none;
+	font-size:12px;
+	letter-spacing:0.5px;
+}
+
+#divabt h3 {
+	font-family:Book Antiqua;
+	color:#840d13;
+}
+
+#divftlinks {
+	background-color:#fccf6a;
+	color:#FFFFFF;
+	padding:2em;
+}
+
+#divftlinks .column {
+	border:1px solid black;
+}
+
+#divftlinks .clmn-1 {
+	width:45%;
+}
+
+#divftlinks .clmn-2 {
+	width:55%;
+}
+
+#divftcpyrght {
+	background-color:#f2b220;
+	color:#FFFFFF;
+	border:1px solid red;
+}
+
+#divftcpyrght .column {
+	border:1px solid black;
+}
+
+.cl-navitem {
+	display:inline;
+	letter-spacing:0.5px;
+	font-size:13px;
+	padding-right:1.5em;
+	color:#840d13;
+	margin-top:1em;
+}
+
+.w3-dropdown-hover:first-child, 
+.w3-dropdown-click:hover {
+	background-color:#FFFFFF;
+}
+
+.cl-head {
+	font-weight:bold;
+	color:#840d13;
+	margin-left:1em;
+}
+
+#divslide {
+	background-color:#f4bb3a;
+	margin:auto;
+	height:550px;
+	width:93%;
+	/*opacity:0.1;*/
+}
+
+#div-grid-news {
+	padding:0em 2em 1em 2em;
+}
+
+#div-grid-news img {
+	margin-bottom:1em;
+}
+
+#div-grid-news .column {
+	width:25%;
+	border:1px solid red;
+	padding:0em 0.5em 0em 0.5em;
+}
+
+.cl-cap-ttle {
+	font-weight:bold;
+	color:#840d13;
+}
+
+.cl-cap {
+	font-size:12px;
+}
+
+#divslide .mySlides {
+	height:500px;
+}
+
+.cl-cap {
+	text-align:justify;
+	color:#840d13;
+}
+
+.cl-rlt {
+	width:90%;
+	margin:auto;
+}
+
+.cl-rlt table {
+	width:100%;
+	text-align:center;
+	border-collapse:collapse;
+}
+
+.column {
+    float: left;
+    width:50%;
+}
+
+.left {
+	width:45%;
+}	
+
+.right {
+	width:55%;
+}
+
+.row:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.pad-1 {
+	padding:2em;
+}
+
+.n-list {
+	list-style:none;
+}
+
+.cl-txt-cntr {
+	text-align:center;
+}
+
+.cl-pad-2 {
+	padding:0em 2em 0em 2em;
+}
+
+.cl-lght-yllw {
+	background-color:#fccf6a;
+}
+
+.anmte-fadeIn {
+	animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
