@@ -71,7 +71,8 @@
 }
 
 #divslide {
-	background-color:#f4bb3a;
+	/*background-color:#f4bb3a;*/
+	background-color:rgb(244,187,58,0.1);
 	margin:auto;
 	height:550px;
 	width:93%;
@@ -92,6 +93,30 @@
 	padding:0em 0.5em 0em 0.5em;
 }
 
+.ban-1 {
+	color:#840d13;
+	/*border:1px solid red;*/
+	padding:11em;
+}
+
+.ban-1 h2 {
+	/*font-weight:bold;*/
+	font-weight:bold;
+}
+
+.ban-1 h6 {
+	font-family:Calibri;
+	letter-spacing:0.5px;
+}
+
+.btn {
+	background-color:#840d13;
+	color:#FFFFFF;
+	width:200px;
+	font-size:12px;
+	letter-spacing:1px;
+}
+
 .cl-cap-ttle {
 	font-weight:bold;
 	color:#840d13;
@@ -101,9 +126,9 @@
 	font-size:12px;
 }
 
-#divslide .mySlides {
+/*#divslide .mySlides {
 	height:500px;
-}
+}*/
 
 .cl-cap {
 	text-align:justify;
