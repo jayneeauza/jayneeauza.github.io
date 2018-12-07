@@ -79,6 +79,21 @@
 	/*opacity:0.1;*/
 }
 
+#divnavslide span {
+	border:1px solid #840d13;
+	background-color:#840d13;
+}
+
+#divnavslide span:hover {
+	background-color:transparent;
+
+}
+
+#divnavslide div {
+	color:#840d13;	
+}
+
+/*w3-border w3-transparent w3-hover-white*/
 #div-grid-news {
 	padding:0em 2em 1em 2em;
 }
