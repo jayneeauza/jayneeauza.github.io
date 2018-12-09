@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" type="image/x-icon" href="icons/ico-liceo.png"/>
 	<title>Liceo de Cagayan University</title>
 	<link rel="stylesheet" type="text/css" href="css/layout.css">
@@ -18,7 +18,7 @@
 				<div class="w3-dropdown-hover">
 					<button class="w3-button cl-navitem">ABOUT</button>
 					<div class="w3-dropdown-content w3-bar-block w3-border">
-						<a href="#" class="w3-bar-item w3-bar-block">HISTORY</a>					
+						<a href="about.php" class="w3-bar-item w3-bar-block">HISTORY</a>					
 						<a href="#" class="w3-bar-item w3-bar-block">VISION & MISSION</a>					
 						<a href="#" class="w3-bar-item w3-bar-block">UNIVERSITY GOALS</a>					
 						<a href="#" class="w3-bar-item w3-bar-block">ADMINISTRATOR</a>
@@ -90,7 +90,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="w3-row cldiv"> <!-- ABOUT LICEO -->
+		<div id="" class="w3-row cldiv"> <!-- ABOUT LICEO -->
 			<div id="divabt" class="w3-container cl-pad-2">
 				<h3 class="cl-txt-cntr">Liceo de Cagayan University is a prime private, non-sectarian university in Northern Mindanao that prepares students for productive life in the society through an offering of a wide array of programs and activities that facilitate Total Human Formation.</h3>
 			</div>
@@ -109,24 +109,23 @@
 				</table>
 			</div>
 		</div>
-		<div class="w3-row"> <!-- FEATURED NEWS -->
-			<h3 class="cl-head">FEATURED NEWS</h3>
-			<div class="column cldiv">
-				<div class="w3-row pad-1">
-					<h5>FDT EUROPE TOUR 2018</h5>
-					<p>After the unparalleled success of their one-month Folklore tour in Europe, the Liceo Folkloric Dance Troupe will stage a HOMECOMING CONCERT on September 18 at the Rodelsa Hall.The Liceo FDT was the sole Asian Dance group invited to participate in seven international folklore festivals in France, Bulgaria, and Romania from June 29 to August 2 of this year. The first festival, the 35th Festival des Cultures du Monde was held in Voiron, France by the Arts & Popular Traditions Samorenc Voiron-Chartreuse, a French Folklore Dance Group whose Director is a founding member of the WORLD FOLKLORE UNION I.G.F.(IGF).  In Voiron, the FDT joined groups from Madagascar, Macedonia, Paraguay and Israel-Palestine, and Canada in a week-long festival sharing cultures through daily performances and street animations.</p>
+		<div id="divfnews" class="w3-row cldiv"> <!-- FEATURED NEWS -->
+			<div class="w3-row">
+				<div class="column pad-1 cl-clr-red">
+					<h5 class="cl-h-fnews"><b>FDT EUROPE TOUR 2018</b></h5>
+					<p class="w3-justify">After the unparalleled success of their one-month Folklore tour in Europe, the Liceo Folkloric Dance Troupe will stage a HOMECOMING CONCERT on September 18 at the Rodelsa Hall.The Liceo FDT was the sole Asian Dance group invited to participate in seven international folklore festivals in France, Bulgaria, and Romania from June 29 to August 2 of this year. The first festival, the 35th Festival des Cultures du Monde was held in Voiron, France by the Arts & Popular Traditions Samorenc Voiron-Chartreuse, a French Folklore Dance Group whose Director is a founding member of the WORLD FOLKLORE UNION I.G.F.(IGF).  In Voiron, the FDT joined groups from Madagascar, Macedonia, Paraguay and Israel-Palestine, and Canada in a week-long festival sharing cultures through daily performances and street animations.</p>
 				</div>
-				<div class="w3-row">
-					<img src="">
+				<div class="column">
+					<img src="images/uploads/2.png" width="100%" height="100%">
 				</div>
 			</div>
-			<div class="column cldiv" style="border:1px solid red;">
-				<div class="w3-row">
-					<img src="">
+			<div class="w3-row">
+				<div class="column cl-img-fnews cl-img-fnews-1">
+					<img src="images/uploads/3.jpg" width="100%" height="100%">
 				</div>
-				<div class="w3-row pad-1">
-					<h5>HIV/AIDS Awareness and Substance AbuseEducation Seminar</h5>
-					<p>October 3, 2018 - The NSTP class of the Medical Laboratory Science - Block D, with their instructor, Mr. Kimberly B. Alvarez, organized and hosted a seminar on HIV/AIDS Awareness and Substance Abuse Education held at AVR 3 in this university.  It was associated with its point of engagement- what an individual can do to avoid the said issues.Mrs. Stella Ferrarez, a Psychologist and an employee of Philippine Mental Health Association was the guest speaker of the event. Mrs. Ferrarez emphasized on the spread of HIV/AIDS to the youngsters, its implications to one’s health and morality, and most specifically how this can be evaded. Her experience in the profession opened her mind to become an advocate.</p>
+				<div class="column pad-1 cl-bg-fnews" style="height:400px;">
+					<h5 class="cl-h-fnews"><b>HIV/AIDS Awareness and Substance Abuse Education Seminar</b></h5>
+					<p class="w3-justify">October 3, 2018 - The NSTP class of the Medical Laboratory Science - Block D, with their instructor, Mr. Kimberly B. Alvarez, organized and hosted a seminar on HIV/AIDS Awareness and Substance Abuse Education held at AVR 3 in this university. It was associated with its point of engagement- what an individual can do to avoid the said issues. Mrs. Stella Ferrarez, a Psychologist and an employee of Philippine Mental Health Association was the guest speaker of the event. Mrs. Ferrarez emphasized on the spread of HIV/AIDS to the youngsters, its implications to one’s health and morality, and most specifically how this can be evaded. Her experience in the profession opened her mind to become an advocate.</p>
 				</div>
 			</div>
 		</div>
@@ -143,17 +142,23 @@
 				<div class="column">
 					<img src="images/rodelsahall.jpg" width="100%" height="200"><br>
 					<span class="cl-cap-ttle">Buwan ng Wika Liceo Preschool</span>
-					<p class="cl-cap">Ipinagdiwang ng Liceo Preschool ang Buwan ng Wika 2018 sa pamamagitan ng “Tabo sa Priskol” noong nakaraang Agosto 31, 2018.</p>
+					<div class="cl-cap">
+						Ipinagdiwang ng Liceo Preschool ang Buwan ng Wika 2018 sa pamamagitan ng “Tabo sa Priskol” noong nakaraang Agosto 31, 2018.
+					</div>
 				</div>
 				<div class="column">
 					<img src="images/rodelsahall.jpg" width="100%" height="200"><br>
 					<span class="cl-cap-ttle">Buwan ng Wika Liceo Preschool</span>
-					<p class="cl-cap">Ipinagdiwang ng Liceo Preschool ang Buwan ng Wika 2018 sa pamamagitan ng “Tabo sa Priskol” noong nakaraang Agosto 31, 2018.</p>
+					<div class="cl-cap">
+						Ipinagdiwang ng Liceo Preschool ang Buwan ng Wika 2018 sa pamamagitan ng “Tabo sa Priskol” noong nakaraang Agosto 31, 2018.
+					</div>
 				</div>
 				<div class="column">
 					<img src="images/rodelsahall.jpg" width="100%" height="200"><br>
 					<span class="cl-cap-ttle">Buwan ng Wika Liceo Preschool</span>
-					<p class="cl-cap">Ipinagdiwang ng Liceo Preschool ang Buwan ng Wika 2018 sa pamamagitan ng “Tabo sa Priskol” noong nakaraang Agosto 31, 2018.</p>
+					<div class="cl-cap">
+						Ipinagdiwang ng Liceo Preschool ang Buwan ng Wika 2018 sa pamamagitan ng “Tabo sa Priskol” noong nakaraang Agosto 31, 2018.
+					</div>
 				</div>
 			</div>
 		</div>
