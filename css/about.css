@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.divbody {
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.nav {
+	margin-top:1em;
+}
+
+.nav a {
+	text-decoration:none;
+}
+
+.nav li {
+	list-style:none;
+	padding-top:1em;
+	padding-right:2em;
+	display:inline;
+	font-size:12px;
+	letter-spacing:0.5px;
+	color:#7B0301;
+}
+
+#txt-history {
+	width:550px;
+	margin-right:5.5em;
+}
+
+#txt-admin {
+	width:550px;
+	mag
+}
+
+.txt {
+	text-align:justify;
+}
+
+.cl-clr-red {
+	color:#8D221C;
+}
+
+.column {
+    float:left;
+}
+
+.right {
+	width:50%;
+}
+
+.left {
+	width:50%;
+}
+
+.hdn {
+	display:none;
+}
