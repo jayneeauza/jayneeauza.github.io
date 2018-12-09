@@ -2,8 +2,8 @@
 @import url("animate.css");
 
 .cldiv {
-	border:1px solid black;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	/*border:1px solid black;*/
 }
 
 #divnav {
@@ -53,11 +53,11 @@
 #divftcpyrght {
 	background-color:#f2b220;
 	color:#FFFFFF;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 
 #divftcpyrght .column {
-	border:1px solid black;
+	/*border:1px solid black;*/
 	padding:0em 2em 0em 2em;
 }
 
@@ -114,7 +114,7 @@
 
 #div-grid-news .column {
 	width:25%;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	padding:0em 0.5em 0em 0.5em;
 }
 
@@ -142,6 +142,34 @@
 	font-weight:bold;
 }
 
+#divfnews {
+	padding-top:1em;
+}
+
+.cl-img-fnews {
+	/*border:1px solid black;*/
+	height:400px;
+	padding:0em 2em 0em 2em;
+	width:100%;
+}
+
+.cl-img-fnews-1 {
+	background-color:#FDF7EA;
+}
+
+.cl-h-fnews {
+	font-family:Georgia;
+}
+
+.cl-clr-red {
+	color:#8D221C;
+}
+
+.cl-bg-fnews {
+	background-color:#FCCF6A;
+	color:#FFFFFF;
+}
+
 .ban-1 {
 	color:#840d13;
 	padding:11em;
@@ -149,7 +177,7 @@
 
 .ban-1 h2 {
 	/*font-weight:bold;*/
-	font-size:49px;
+	font-size:42px;
 	font-family:Georgia;
 }
 
@@ -168,6 +196,7 @@
 	border:none;
 	padding:1em 5em 1em 5em;
 	text-decoration:none;
+	margin-top:2em;
 }
 
 .btn:hover {
@@ -191,23 +220,22 @@ a {
 	text-decoration:none;
 }
 
-.cl-cap-ttle {
-	font-weight:bold;
-	color:#840d13;
-}
-
-.cl-cap {
-	font-size:12px;
-}
-
 #divslide .mySlides {
 	height:500px;
 	margin:0;
 }
 
+.cl-cap-ttle {
+	font-weight:bold;
+	color:#840d13;
+	/*border:1px solid black;*/
+}
+
 .cl-cap {
+	/*border:1px solid black;*/
 	text-align:justify;
 	color:#840d13;
+	font-size:12px;
 }
 
 .cl-rlt {
@@ -222,7 +250,7 @@ a {
 }
 
 .column {
-    float: left;
+    float:left;
     width:50%;
 }
 
