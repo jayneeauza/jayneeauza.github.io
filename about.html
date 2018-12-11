@@ -13,34 +13,123 @@
 	<div class="divbody">
 		<div class="w3-container w3-row">
 			<div class="column left">
-				<a href="index.html"><img src="icons/ico-ldcu.png" width="340" height="80"></a>
+				<a href="index.php"><img src="icons/ico-ldcu.png" width="340" height="80"></a>
 			</div>
 			<div class="column right nav">
 				<ul class="tab">
-					<li><a href="home.html">HOME</a></li>
-					<li><a href="#" id="def" class="tablinks" onclick="openAbout(event, 'history')">HISTORY</a></li>
-					<li><a href="#" class="tablinks" onclick="openAbout(event, 'vision')">VISION & MISSION</a></li>
-					<li><a href="#">GOALS</a></li>
-					<li><a href="#" class="tablinks" onclick="openAbout(event, 'admin')">ADMINISTRATOR</a></li>
-					<li><a href="#">RODELSA HALL</a></li>
+					<li><a href="home.php">HOME</a></li>
+					<li><a href="#" id="def" class="tablinks" onclick="openAbout(event, 'tab-1')">HISTORY</a></li>
+					<li><a href="#" class="tablinks" onclick="openAbout(event, 'tab-2')" onclick="openAbout(event, 'vision')">VISION & MISSION</a></li>
+					<li><a href="#" onclick="openAbout(event, 'tab-3')">GOALS</a></li>
+					<li><a href="#" class="tablinks" onclick="openAbout(event, 'tab-4')">ADMINISTRATOR</a></li>
+					<li><a href="#" onclick="openAbout(event, 'tab-5')">RODELSA HALL</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="w3-row">
-			<div id="history" class="w3-row tabcontent">
+			<div id="tab-1" class="w3-row tabcontent">
 				<img src="images/sample.png" width="100%" height="600">
 				<div id="txt-history" class="txt w3-container w3-display-right">
 					<h3>HISTORY</h3>
 					<p>Founded in 1955 by Atty. Rodolfo N. Pelaez of Cagayan de Oro City and his wife Elsa Pelaez of Cebu Cify, the University was established with the primary vision of extending education to the youths especially those poor but deserving students in Northern Mindanao. Envisioned to make relevant and quality education accessible to the youths, this higher institution of learning was founded to facilitate their total human formation anchored on moral values and Christian precepts.</p>
 				</div>
 			</div>
-			<div id="admin" class="w3-row w3-border tabcontent">
+			<div id="tab-2" class="w3-row tabcontent">
+				<img src="images/sample.png" width="100%" height="600">
+				<div id="txt-vision" class="txt w3-container w3-display-left">
+					<h3>VISION</h3>
+					<p>A leading Filipino University preparing responsible global leaders, anchored on Total Human Formation, for God, Country, and Humanity.</p>
+					<h3>MISSION</h3>
+					<p>The University is committed to deliver quality instruction, research, and service learning for global integration.</p>
+				</div>
+			</div>
+			<div id="tab-3" class="w3-row tabcontent">
+				<img src="images/sample.png" width="100%" height="600">
+				<div id="txt-goals" class="txt w3-container w3-display-right">
+					<h3>GOALS</h3>
+					<p>As a University poised for internationalization, she is committed to deliver world standard programs for various professions.</p>
+				</div>
+			</div>
+			<div id="tab-4" class="w3-row tabcontent">
 				<img src="images/sample.png" width="100%" height="600">
 				<div id="txt-admin" class="txt w3-container w3-display-left">
 					<h3>THE ADMINISTRATOR</h3>
 					<p>Liceo de Cagayan University, as a close family corporation, is headed by a president who is appointed by a board of directors. It has a flat and lean administrative structure, making governance and management responsive, effective, and action-oriented.</p>
 					<p>The University has stood the test of time through a strong, dynamic, and competent leadership at the helm. Upholding the philanthropic vision to serve the educational need of the common man, Atty. Rodolfo N. Pelaez and his wife Elsa P. Pelaez, founded this post-liberation institution in 1955. Succeeding Atty. Rodolfo N. Pelaez, who served as Director of Liceo de Cagayan, Dr. Jose Ma. R. Golez was installed as the first University President in 1997, with a five-year term of office. In 2002, Dr. Rafaelita P. Pelaez, was installed as the second University President and continued to pursue tirelessly the ideals and aspirations of the University’s reason for being. After five years, Dr. Mariano M. Lerin, CPA, was installed in 2007 as the third University president. He is the concurrent University President as of this writing.</p>
 					<p>After 59 years, Liceo de Cagayan University continues to commit as a Filipino institution of higher learning, the University is committed to the upholding of national identity by instilling in the heart of every student the pride as a Filipino. The University continues to stand for excellence, integrity, loyalty, discipline and service as central to the total human formation of students.</p>
+				</div>
+				<div id="">
+					<table id="tbladmin" border="1" align="center">
+						<tr>
+							<td>
+								<img src="images/uploads/profile/pelaez.jpg" class="img-prof" width="280" height="200">
+							</td>
+							<td>
+								<img src="images/uploads/profile/lerin.jpg" class="" width="280" height="200">
+							</td>
+							<td>
+								<img src="images/uploads/profile/lerin.jpg" class="" width="280" height="200">
+							</td>
+							<td>
+								<img src="images/uploads/profile/lerin.jpg" class="" width="280" height="200">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span class="prof-name">Dr. Rafaelita P. Pelaez</span><br>
+								<span class="prof-des">CHAIRMAN, BOARD OF DIRECTORS</span>
+							</td>
+							<td>
+								<span class="prof-name">Dr. Mariano M. Lerin, CPA</span><br>
+								<span class="prof-des">UNIVERSITY PRESIDENT</span>
+							</td>
+							<td>
+								<span class="prof-name">Dr. Alain Marc P. Golez</span><br>
+								<span class="prof-des">EXECUTIVE VICE PRESIDENT, <br>VICE PRESIDENT FOR ADMINISTRATION</span>
+							</td>
+							<td>
+								<span class="prof-name">Mr. Rudolf Caeser P. Golez</span><br>
+								<span class="prof-des">VICE PRESIDENT FOR CULTURAL AFFAIRS/DEAN EMERITUS, <br>COLLEGE OF MUSIC</span>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="tab-5" class="w3-row tabcontent">
+				<img src="images/sample.png" width="100%" height="610" width="100%">
+				<div class="w3-row w3-display-middle">
+					<div class="w3-container cl-txt-cntr">
+						<h3>MISSION</h3>
+						<p>To provide serious local artists with the experience of a world-class concert hall and visiting world-class artists with adequate facilities for their performance thus supporting and celebrating excellence in the performing arts.</p>
+						<h3>VISION</h3>
+						<p>To support and celebrate excellence in the performing arts by being the premier Cultural Center for the Performing Arts in Southern Philippines.</p>
+					</div>
+				</div>
+				<div class="w3-row">
+					<div id="txt-rod-faci" class="w3-container cl-txt-cntr">
+						<p>The Rodelsa Hall is situated at Rodolfo N. Pelaez Boulevard, Carmen, Cagayan de Oro City, in the Philippines. Rodelsa Hall is operated by the Liceo de Cagayan University and prides herself with a facility that marks a genuine learning institution. It is the cultural center for the performing arts and host to numerous campus cultural activities.</p>
+						<p>The Rodelsa Hall is built along classic architectural lines employed on her facade. A world-class, state-of-the-art concert hall capable of accommodating a total seating capacity of 700, divided into two levels: balcony and orchestra seats. At stage level there are two star dressing rooms with wash rooms. Safety measures are in place with multiple ramps for wheelchairs and strategic fire exit ways</p>
+						<p>The Rodelsa Hall is fully air conditioned with a professional stage and orchestra pit. Professional musicians and instrumentalists will discover a whole new experience at the Rodelsa Hall with a world-class professional light and sound system, furnished with a Concert Grand Grotrian Steinweg Piano and a secondary Parlor Grand.</p>
+						<p>The Rodelsa Hall will make your every moment a treasured experience.</p>
+					</div>
+					<div id="txt-rod-court" class="w3-container">
+						<h3>CONCERT COURTESY</h3>		
+						<p class="">Attending a concert, a ballet, a play or any other performing arts presentation is a special occasion. To help you get the most enjoyment and satisfaction from attending such performances and to help others get the same benefit, the following suggestions on proper behavior at such events are offered. Observing them will greatly enhance the experience.</p>
+						<ul class="">
+							<li>Come on time or better still, come with some minutes to spare. This will give you ample time to find your seat, browse through the program or playbill and settle down and become comfortable with the surroundings. If a late arrival is unavoidable, do not insist on going up to the front of the house in the midst of the performance. Wait at the rear and find your seat during intermission.</li>
+							<li>Please make sure that all alarm watches, cellular phones, electric beepers are turned off or put on mute or vibra mode as these maye interfere with the sound system and the incessant “beep” is distracting.</li>
+							<li>Try to avoid conversations, even in whispers during a performance. Save any comments until the end of the number. The conversational buzz may irritate the rest of the audience or may distract the performer.</li>
+							<li>Avoid standing, moving around, fidgeting, finding your seat or exiting while a performance is going on.You owe the performing artists who have worked very hard to perfect their craft, the courtesy of your full attention. Children who are likely to become restless at such performances should not be brought at all. They are likely to annoy not only your seatmates but the artists as well.</li>
+							<li>If you want to take photographs of the artists during a performance, s\it should be best to clear the matter with the show manager. Flash photography will divert the artist’s concentration</li>
+							<li>Do not scream or whistle. Appreciation is best expressed by shouts of “Bravo” at the very end of the performance or in between appropriate breaks. Strong and prolonged applause suggest to the performer that the audience wants an encore. Performers appreciate a responsive and appreciative audience.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="w3-row">
+					<div id="txt-rod-contact" class="txt w3-container">
+						<h3>CONTACT US</h3>
+						<p>The theatre management, including the front-of-house operations, is under the Office of Cultural and Public Affairs, Liceo de Cagayan University, Carmen, Cagayan de Oro City 9000.</p>
+					</div>	
 				</div>
 			</div>
 		</div>
