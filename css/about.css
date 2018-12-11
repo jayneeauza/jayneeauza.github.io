@@ -28,8 +28,49 @@
 }
 
 #txt-admin {
-	width:550px;
-	mag
+	width:600px;
+	margin:2em 0em 0em 3em;
+}
+
+#txt-vision {
+	width:600px;
+	margin-left:3em;
+}
+
+#txt-goals {
+	width:600px;
+	margin-right:4em;
+}
+
+#txt-rod-court {
+	padding:0em 3em 0em 3em;
+	/*border:1px solid black;*/
+}
+
+/*.img-prof {
+	width:400px;
+	height:450px;
+}*/
+
+#tbladmin {
+	width:100%;
+	border-collapse:collapse;
+}
+
+#tbladmin td {
+	text-align:center;
+}
+
+.prof-name {
+	font-size:16px;
+}
+
+.prof-des {
+	font-size:12px;
+}
+
+#txt-rod-faci {
+	padding:5em;
 }
 
 .txt {
@@ -38,6 +79,10 @@
 
 .cl-clr-red {
 	color:#8D221C;
+}
+
+.cl-txt-cntr {
+	text-align:center;
 }
 
 .column {
@@ -54,6 +99,10 @@
 
 .hdn {
 	display:none;
+}
+
+.tab li:hover {
+	text-decoration:underline;
 }
 
 .tabcontent {
