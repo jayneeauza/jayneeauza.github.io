@@ -145,6 +145,7 @@
 
 #divicosocial img {
 	margin-right:1.5em;
+	cursor:pointer;
 }
 
 #divcntctinfo {
@@ -221,7 +222,7 @@
 	border:none;
 	padding:1em 5em 1em 5em;
 	text-decoration:none;
-	margin-top:2em;
+	/*margin-top:2em;*/
 }
 
 .btn:hover {
