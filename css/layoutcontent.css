@@ -710,6 +710,7 @@ p {
 /****************************/
 #divnav .clnav {
 	float:right;
+	margin-top:0.5em;
 }
 #divnav ul {
     list-style: none;
