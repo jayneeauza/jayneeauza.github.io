@@ -1,4 +1,12 @@
 $(document).ready(function() {
+	$("#divadmin #divbody").on("click", ".column", function() {
+		$("#divadminprofile").css("display", "block");
+	});
+
+	$(".cl-cls").click(function() {
+		$(".w3-modal").css("display", "none");
+	});
+
 	showDivs(slideIndex);
 	showPage(sIndex);
 
