@@ -7,6 +7,22 @@ $(document).ready(function() {
 		$(".w3-modal").css("display", "none");
 	});
 
+	$("#divnstp .cl-btn").click(function() {
+		$("#divnstpcntnt").css("display", "block");
+	});	
+
+	$("#slctscholar").change(function(){
+        $(this).find("option:selected").each(function(){
+            var optionValue = $(this).attr("value");
+            if(optionValue){
+                $("#divscholar .w3-table").not("." + optionValue).hide();
+                $("." + optionValue).show();
+            } else{
+                $("#divscholar .w3-table").hide();
+            }
+        });
+    }).change();
+
 	showDivs(slideIndex);
 	showPage(sIndex);
 
@@ -17,8 +33,9 @@ $(document).ready(function() {
 		nlink(1);
 	}, 5000);
 });
-	var slideIndex = 1;
-	var sIndex = 1;
+
+var slideIndex = 1;
+var sIndex = 1;
 
 function plusDivs(n) {
 	showDivs(slideIndex += n);
@@ -35,7 +52,6 @@ function nlink(n) {
 function plink(n) {
 	showPage(sIndex -= n);
 }
-
 
 function showDivs(n) {
 	var i;
