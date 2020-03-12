@@ -147,6 +147,8 @@
 	text-align:center;
 }
 
+#divguidance #divbody,
+#divguidance #divbody .w3-row:nth-child(4) .column,
 #divso #divbody,
 #divso .column,
 #divnstp #divbody,
@@ -154,6 +156,7 @@
 	padding:1em;
 	width:100%;
 	margin:0;
+	border:1px solid black;
 }
 
 #divso #divbody .cl-img,
@@ -161,6 +164,7 @@
 	height:200px;
 }
 
+#divguidance #divbody .cl-txt h3,
 #divnstp #divbody .cl-txt h3 {
 	font-size:24px;
 }
@@ -193,6 +197,19 @@
 	height:100px;
 	cursor:pointer;
 	/*background-color:#FCCF6A;*/
+}
+
+#divguidance #divbody .w3-row:nth-child(4) {
+	padding-left:0;
+}
+
+#divguidance #divbody .w3-row:nth-child(3) {
+	padding:0em 2em;	
+}
+
+#divguidance #divbody .w3-row:nth-child(3) .cl-btn {
+	margin:1em 0em;
+	width:100%;
 }
 
 #divfooter div {

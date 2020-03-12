@@ -11,6 +11,14 @@ $(document).ready(function() {
 		$("#divnstpcntnt").css("display", "block");
 	});	
 
+	$("#diveteeap .cl-btn").click(function() {
+		$("#divattndeg").css("display", "block");
+	});
+
+	$("#divresearch .cl-btn").click(function() {
+		$("#divfndmore").css("display", "block");
+	});
+
 	$("#slctscholar").change(function(){
         $(this).find("option:selected").each(function(){
             var optionValue = $(this).attr("value");
@@ -22,6 +30,10 @@ $(document).ready(function() {
             }
         });
     }).change();
+
+    $("#divguidance .cl-txt .cl-btn").click(function() {
+		$("#divexmsched").css("display", "block");
+    });
 
 	showDivs(slideIndex);
 	showPage(sIndex);
