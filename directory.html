@@ -12,50 +12,11 @@
     <link rel="stylesheet" type="text/css" media="screen and (max-width:1021px)" href="css/m/ss.css">
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/layout.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
 </head>
 <body>
-	<div id="divdir">
-		<div id="divnav" class="w3-row w3-top">
-			<img src="icons/ico-ldcu.png" class="cl-ico-ldcu">
-			<div class="w3-right">
-				<div class="w3-row">
-					<input type="text" class="w3-input w3-border w3-right cl-search" placeholder="Search...">
-				</div>
-				<div class="w3-row">
-					<ul class="clnav">
-						<li class="cl-nav-item"><a href="" class="cl-bld">President's Page</a></li>
-						<li class="cl-nav-item"><a class="cl-bld">ABOUT</a>
-							<ul>
-								<li><a href="">HISTORY</a></li>
-								<li><a href="">VMGO</a></li>
-								<li><a href="">ACCREDITATIONS</a></li>
-								<li><a href="">ADMINISTRATORS</a></li>
-								<li><a href="">STUDENTS</a></li>
-								<li><a href="">CULTURE & ARTS</a></li>
-							</ul>
-						</li>
-						<li class="cl-nav-item"><a class="cl-bld">ADMISSION</a>
-							<ul>
-								<li><a href="">ENROLLMENT</a></li>
-								<li><a href="">SCHOLARSHIP</a></li>
-							</ul>
-						</li>
-						<li class="cl-nav-item"><a href="" class="cl-bld">ACADEMICS</a></li>
-						<li class="cl-nav-item"><a class="cl-bld">RESEARCH</a>
-							<ul>
-								<li><a href="">RESEARCH, PUBLICATION & EXTENSION</a></li>
-								<li><a href="">LINKAGES</a></li>
-							</ul>
-						</li>
-						<li class="cl-nav-item"><a class="cl-bld">NEWS & EVENTS</a>
-							<ul>
-								<li><a href="">CALENDAR</a></li>
-								<li><a href="">NEWS</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>				
-			</div>
+	<div id="divdir" ng-app="">
+		<div id="divnav" class="w3-row w3-top" ng-include="'nav.html'">
 		</div>
 		<div class="cl-bod-cntnt w3-row">
 			<div id="divbody" class="w3-row">
@@ -123,53 +84,7 @@
 					</table>
 				</div>
 			</div>
-			<div id="divfooter" class="w3-row">
-				<div class="w3-row cl-bg-yllw2">
-					<div class="column">
-						<ul>
-							<li class="cl-lih">SERVICES</li>
-							<li>School Automate</li>
-							<li>Course Mobile</li>
-							<li>Graduates Registration</li>
-							<li>Careers</li>
-							<li>Directory</li>
-							<li>Sophia Residence Hall</li>
-							<li>Student Services</li>
-						</ul>
-					</div>
-					<div class="column">
-						<ul>
-							<li class="cl-lih">RESOURCES</li>
-							<li>Webmail</li>
-							<li>E-Resources (Destiny Library)</li>
-							<li>e-Journal (Proquest)</li>
-							<li>e-Book (GVRL)</li>
-							<li>e-Dictionary (Oxford Online)</li>
-							<li>Philippine E-journal</li>
-							<li>ETEEAP</li>
-							<li>Safer River, Life Saver Foundation, Inc.</li>
-							<li>Liceo Center for Community</li>
-							<li>Development (LCCD)</li>
-						</ul>
-					</div>
-					<div class="column w3-right">
-						<span class="cl-bld">Subscribe to our newsletter</span><br>
-						<input type="text" placeholder="Email Address">
-						<button>Subscribe</button>
-						<ul>
-							<li>Rodolfo N. Pelaez Blvd., Kauswagan, <br> Cagayan de Oro City, 9000, Misamis Oriental, Philippines</li>
-							<li>Telephone #:(088) 858-4093 to 94<br>
-							&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;(63)(88) 858-4095<br>
-							&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;(63)(8822) 72-22-44</li>
-							<li>Fax #1 (088)8583123</li>
-							<li>Fax #2 (63)(88)8584093 Local 111</li>
-							<li>Email: inquiries@liceo.edu.ph</li>
-						</ul>
-					</div>
-				</div>
-				<div class="w3-row cl-cpy">
-	               	&copy; 2018 Liceo de Cagayan University. All Rights Reserved.
-				</div>
+			<div id="divfooter" class="w3-row" ng-include="'footer.html'">
 			</div>
 		</div>
 	</div>
