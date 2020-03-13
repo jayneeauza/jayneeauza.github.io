@@ -134,6 +134,11 @@
 		color:#707070;
 		margin-left:24em;
 	}
+
+	#divsophia #divhseandreg .w3-modal-content {
+		height:800px;
+		overflow:auto;
+	}
 }
 
 @media only screen and (min-width:361px) and (max-width:1366px) {
@@ -245,6 +250,11 @@
 		width:1200px;
 		color:#707070;
 		margin-left:5.2em;
+	}
+
+	#divsophia #divhseandreg .w3-modal-content {
+		height:500px;
+		overflow:auto;
 	}
 }
 
@@ -1376,6 +1386,12 @@ p {
 	margin-top:8px;
 }
 
+#divsophia #divhseandreg .w3-modal-content div {
+	padding:0em 4em;
+	text-align:justify;
+	font-family:Montserrat;
+}
+
 #divfooter {
 	width:100%;
 	/*height:400px;*/
@@ -1387,6 +1403,10 @@ p {
 	float:left;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	color:#8D221C;
+}
+
+#divfooter a {
+	text-decoration:none;
 }
 
 #divfooter ul li {

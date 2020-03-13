@@ -19,6 +19,10 @@ $(document).ready(function() {
 		$("#divfndmore").css("display", "block");
 	});
 
+	$("#divsophia .cl-txt .cl-btn").click(function() {
+		$("#divhseandreg").css("display", "block");
+	});
+
 	$("#slctscholar").change(function(){
         $(this).find("option:selected").each(function(){
             var optionValue = $(this).attr("value");
