@@ -19,8 +19,20 @@ $(document).ready(function() {
 		$("#divfndmore").css("display", "block");
 	});
 
-	$("#divsophia .cl-txt .cl-btn").click(function() {
+	$("#divsophia .cl-txt  .cl-btn").click(function() {
 		$("#divhseandreg").css("display", "block");
+	});
+
+	$("#divorg .cl-txt .cl-btn").click(function() {
+		$("#divguidelines").css("display", "block");
+	});
+
+	$("#divsps .cl-txt .cl-btn-2").click(function() {
+		$("#divhandbook").css("display", "block");
+	});
+
+	$("#divsps .cl-txt .cl-btn-1").click(function() {
+		$("#divsaservices").css("display", "block");
 	});
 
 	$("#slctscholar").change(function(){

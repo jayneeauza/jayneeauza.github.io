@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="icons/ico-liceo.png" />
+	<title>Liceo de Cagayan University</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/scroll.css">
+    <link rel="stylesheet" type="text/css" href="css/layoutcontent.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:1022px) and (max-width:1280px)" href="css/layoutcontent.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:1021px)" href="css/m/ss.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/layout.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+</head>
+<body>
+	<div id="divsps" ng-app="">
+		<div id="divnav" class="w3-row w3-top" ng-include="'nav.html'">
+		</div>
+		<div class="cl-bod-cntnt w3-row">
+			<div id="divbody" class="w3-container">
+				<div class="w3-row cl-txt">
+					<h3 class="cl-bld">STUDENT PERSONNEL SERVICES</h3>
+					<p>The Student Personnel Services is primarily concerned with four major aspects in the University. These are Student Welfare, Student Activity, Student Decorum / Control and Promotion & Student Recruitment Office. The Office serves as the link or conduit between and among the students, administration, and faculty of the college department in so far as co-curricular, extra-curricular, and other student services are concerned. It is the main implementor of rules and regulations, policies and procedures of the school as related to the specific provisions found in the Student Handbook.</p>
+					<button class="cl-btn cl-btn-1">STUDENT AFFAIRS SERVICES</button>
+					<button class="cl-btn cl-btn-2">STUDENT HANDBOOK</button>
+				</div>
+				<div class="w3-row">
+					<h3 class="w3-center cl-bld">SERVICES</h3>
+					<table class="w3-table cl-tbl-lst">
+						<tr>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>GUIDANCE OFFICE</span>
+							</td>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>CANTEEN SERVICES</span>
+							</td>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>DENTAL SERVICES</span>
+							</td>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>INTERNATION STUDENT<br>SERVICES</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>MEDICAL SERVICES</span>
+							</td>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>PROMOTION & STUDENT<br>RECRUITMENT</span>
+							</td>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>SCHOLARSHIPS AND<br>FINANCIAL ASSISTANCE</span>
+							</td>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>SPORTS AND ATHLETIC<br>SERVICES</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>STUDENT AFFAIRS<br>SERVICES</span>
+							</td>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>SBO & OTHER RECOGNIZED<br>ORGANIZATION</span>
+							</td>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>STUDENT HOUSING</span>
+							</td>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>STUDENT DISCIPLINE</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>STUDENT PUBLICATION</span>
+							</td>
+							<td>
+								<img src="images/rodelsahall.jpg"><br>
+								<span>CAMPUS MINISTRY</span>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<!-- <div class="w3-row">
+					<h3 class="w3-center cl-bld">ADMINISTRATORS</h3>
+				</div> -->
+				<div id="divhandbook" class="w3-modal">
+					<div class="w3-modal-content">
+						<header class="w3-container">
+							<h3 class="cl-bld">STUDENT HANDBOOK</h3>
+							<span class="w3-button w3-display-topright cl-cls">&times;</span>
+						</header>
+						<div>
+							<iframe src="files/CollegeStudentHandbook.pdf" width="100%" height="438px"></iframe>
+						</div>
+						<footer class="w3-container">
+							<!-- <p>Dr. Ma. Florecilla C. Cinches</p> -->
+						</footer>
+					</div>
+				</div>
+				<div id="divsaservices" class="w3-modal">
+					<div class="w3-modal-content">
+						<header class="w3-container">
+							<h3 class="cl-bld">STUDENT AFFAIRS SERVICES</h3>
+							<span class="w3-button w3-display-topright cl-cls">&times;</span>
+						</header>
+						<div class="w3-container">
+							<p>Institutional Trainings and Programs for Student Leaders Formation</p>
+							<table class="cl-tbl-lst">
+								<tr>
+									<td>Student Assistants</td>
+									<td>Student Police Guard</td>
+									<td>Folkloric Dance Troupe</td>
+								</tr>
+								<tr>
+									<td>University Band</td>
+									<td>Varsity Scholars</td>
+									<td>Drum and Bugle</td>
+								</tr>
+								<tr>
+									<td>AFP/PNP</td>
+									<td>Technical Assistants</td>
+									<td>Next Moves Dance Company</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="divfooter" class="w3-row" ng-include="'footer.html'">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
