@@ -127,6 +127,12 @@
 		color:#707070;
 	}
 
+	#divcalendar #divbody {
+		width:1600px;
+		margin-left:16em;
+	}
+
+	#divenrollment #divbody,
 	#divorg #divbody,
 	#divdir #divbody,
 	#divlinkages #divbody,
@@ -142,6 +148,10 @@
 	#divsophia #divhseandreg .w3-modal-content {
 		height:800px;
 		overflow:auto;
+	}
+
+	#divsps iframe {
+		height:738px;
 	}
 }
 
@@ -248,7 +258,9 @@
 		color:#707070;
 	}
 
+	#divcalendar #divbody,
 	#divorg #divbody,
+	#divenrollment #divbody,
 	#divlinkages #divbody,
 	#divdir #divbody,
 	#divscholar #divbody {
@@ -263,6 +275,10 @@
 	#divsophia #divhseandreg .w3-modal-content {
 		height:500px;
 		overflow:auto;
+	}
+
+	#divsps iframe {
+		height:438px;
 	}
 }
 
@@ -833,6 +849,7 @@ p {
 	padding-top:1.5em;
 }
 
+#divenrollment #divbody img,
 #divadmin #divbody img {
 	height:120px;
 	width:120px;
@@ -840,6 +857,7 @@ p {
 	margin-bottom:1em;
 }
 
+#divenrollment #divbody .spn-name,
 #divadmin #divbody .spn-name {
 	font-family:Nunito;
 	font-weight:bold;
@@ -977,6 +995,7 @@ p {
 	transition:0.8s;
 }
 
+#divsps .cl-bod-cntnt .cl-btn:hover,
 #divorg .cl-bod-cntnt .cl-btn:hover,
 #divresearch .cl-bod-cntnt .cl-btn:hover,
 #divsophia .cl-bod-cntnt .cl-btn:hover,
@@ -1445,6 +1464,10 @@ p {
 	padding:0.8em 0em;
 }
 
+#divsps {
+	color:#888;
+}
+
 #divsps .cl-tbl-lst td {
 	text-align:center;
 }
@@ -1459,6 +1482,218 @@ p {
 
 #divsps #divsaservices table td {
 	text-align:left;
+}
+
+#divenrollment #divbody ul,
+#divenrollment #divbody .spn-pos {
+	text-align:left;
+	color:#8D221C;
+	font-size:12px;
+	letter-spacing:0.5px;
+	font-family:Montserrat;
+	font-size:12px;
+}
+
+#divenrollment #divbody table {	
+	font-family:Montserrat;
+}
+
+#divenrollment #divbody .column {
+	float:left;
+	padding:1em 1em 1em 1em;
+	width:300px;
+	/*height:220px;*/
+	cursor:pointer;
+	color:#707070;
+}
+
+#divenrollment #divbody .column-1 {
+	width:50%;
+	color:#8D221C;
+}
+
+#divenrollment #divbody .spn-num {
+	font-size:60px;
+	position:relative;
+	top:40px;
+	right:-5px;
+	font-family:Nunito;
+	font-weight:bold;
+	color:#8D221C;
+}
+
+#divenrollment #divbody h3 {
+	font-weight:bold;
+}
+
+#divcalendar #divbody .column {
+	float:left;
+	height:600px;
+}
+
+#divcalendar #divbody .col-1 {
+	background-color:#8D221C;
+	color:#FFFFFF;
+	padding-top:6em;
+	width:26%;
+}
+
+#divcalendar #divbody .col-2 {
+	width:52%;
+}
+
+#divcalendar #divbody .col-3 {
+	width:12%;
+}
+
+#divcalendar #divbody .col-1 ul {
+	margin:0em 0em 2em 4em;
+	padding:0;
+}
+
+#divcalendar #divbody .col-1 ul li {
+	font-family:Nunito;
+	/*font-weight:bold;*/
+	padding-right:1.5em;
+}
+
+#divcalendar #divbody .col-3 h3,
+#divcalendar #divbody .col-3 #slctyear,
+#divcalendar #divbody .col-2 #slctmonth {
+	font-size:40px;
+	font-weight:bold;
+	color:#8D221C;
+	letter-spacing:1px;
+	margin-left:0.7em;
+	font-family:Nunito;
+}
+
+#divcalendar #divbody #idday {
+	font-family:Montserrat;
+	font-size:50px;
+	color:#D1A6A4;
+	margin-left:1em;
+}
+
+#divcalendar #divbody #iddate {
+	margin-left:1.3em;
+}
+
+#divcalendar #divbody #iddate,
+#divcalendar #divbody #idmonth {
+	font-family:Nunito;
+	font-size:40px;
+	position:relative;
+	top:-30px;
+}
+
+#divcalendar #divbody .col-1 table td {
+	padding:1em 0em 1em 4em;
+}
+
+#divcalendar #divbody .col-1 .cl-time {
+	font-family:Montserrat;
+	font-size:12px;
+	color:#D1A6A4;
+}
+
+#divcalendar #divbody .col-1 .cl-ttle {
+	font-family:Nunito;
+	font-size:18px;
+}
+
+#divcalendar #divbody .col-1 table tr:hover {
+	background-color:#7D0700;
+	transition:0.5s;
+	cursor:pointer;
+}
+
+#divcalendar #divbody .col-2 .cl-days {
+	margin-top:4em;
+	margin-left:0.3em;
+}
+
+#divcalendar #divbody .col-2 .cl-days li {
+	color:#8D221C;
+	font-family:Montserrat;
+	font-weight:bold;
+	font-size:18px;
+	/*border:1px solid black;*/
+	margin-left:-0.3em;
+}
+
+#divcalendar #divbody .col-2 .cl-dates li {
+	font-family:Montserrat;
+	font-weight:bold;
+	color:#707070;
+	font-size:18px;
+	margin-top:1.5em;
+	cursor:pointer;
+}
+
+#divcalendar #divbody .col-2 ul li div {
+	text-align:center;
+	width:100px;
+}
+
+#divcalendar #divbody .col-3 ul {
+	margin:1em 0em 0em 0em;
+	padding:0;
+	color:#8D221C;
+}
+
+
+#divcalendar #divbody .col-3 ul li {
+	list-style:none;
+	margin:0;
+	padding:0.5em 2em;
+	font-family:Montserrat;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#divcalendar #divbody .col-3 ul li:hover {
+	background-color:#8D221C;
+	color:#FFFFFF;
+	transition:0.5s;
+	cursor:pointer;
+	border-radius:8px 0px 0px 8px;
+}
+
+#divcalendar #divbody .col-3 #slctyear{
+	outline:none;
+}
+
+#divcalendar #divbody .col-2 #slctmonth {
+	width:280px;
+	outline:none;
+}
+
+#divcalendar #divbody .col-3 #slctyear option,
+#divcalendar #divbody .col-2 #slctmonth option {
+	font-size:16px;
+}
+
+.mselected {
+	background-color:#8D221C;
+	color:#FFFFFF;
+	transition:0.5s;
+	cursor:pointer;
+	border-radius:8px 0px 0px 8px;
+}
+
+.dselected {
+	background-color:#8D221C;
+	color:#FFFFFF;
+	border-radius:5px;
+}
+
+
+#divcalendar #divbody .col-1 ul li,
+#divcalendar #divbody .col-2 ul li,
+#divcalendar #divbody .col-2 ul li div {
+	list-style:none;
+	display:inline-block;
 }
 
 #divfooter {
@@ -1546,6 +1781,10 @@ p {
 
 .cl-bld {
 	font-weight:bold;
+}
+
+.cl-rd {
+	color:#8D221C;
 }
 
 .cl-bg-yllw {

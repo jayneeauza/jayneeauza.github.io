@@ -147,6 +147,9 @@
 	text-align:center;
 }
 
+#divenrollment #divbody,
+#divsps #divbody,
+#divsps #divbody table td,
 #divguidance #divbody,
 #divguidance #divbody .w3-row:nth-child(4) .column,
 #divso #divbody,
@@ -156,7 +159,6 @@
 	padding:1em;
 	width:100%;
 	margin:0;
-	border:1px solid black;
 }
 
 #divso #divbody .cl-img,
@@ -210,6 +212,12 @@
 #divguidance #divbody .w3-row:nth-child(3) .cl-btn {
 	margin:1em 0em;
 	width:100%;
+}
+
+#divenrollment #divbody h3 {
+	font-weight:bold;
+	text-align:center;
+	color:#707070;
 }
 
 #divfooter div {

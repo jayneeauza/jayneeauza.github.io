@@ -35,6 +35,10 @@ $(document).ready(function() {
 		$("#divsaservices").css("display", "block");
 	});
 
+	$("#divenrollment .btnsched").click(function() {
+		$("#divsched").css("display", "block");
+	});
+
 	$("#slctscholar").change(function(){
         $(this).find("option:selected").each(function(){
             var optionValue = $(this).attr("value");
