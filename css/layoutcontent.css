@@ -132,7 +132,6 @@
 		margin-left:16em;
 	}
 
-	#divenrollment #divbody,
 	#divorg #divbody,
 	#divdir #divbody,
 	#divlinkages #divbody,
@@ -148,6 +147,14 @@
 	#divsophia #divhseandreg .w3-modal-content {
 		height:800px;
 		overflow:auto;
+	}
+
+	#divcalendar #divbody .col-2 {
+		width:52%;
+	}
+
+	#divcalendar #divbody .col-3 {
+		width:12%;
 	}
 
 	#divsps iframe {
@@ -258,7 +265,6 @@
 		color:#707070;
 	}
 
-	#divcalendar #divbody,
 	#divorg #divbody,
 	#divenrollment #divbody,
 	#divlinkages #divbody,
@@ -277,9 +283,23 @@
 		overflow:auto;
 	}
 
+	#divcalendar #divbody {
+		width:1200px;
+		margin-left:4em;
+	}
+
+	#divcalendar #divbody .col-2 {
+		width:62%;
+	}
+
+	#divcalendar #divbody .col-3 {
+		width:12%;
+	}
+
 	#divsps iframe {
 		height:438px;
 	}
+
 }
 
 h2, h3, h4, h5, h6 {
@@ -1536,14 +1556,6 @@ p {
 	color:#FFFFFF;
 	padding-top:6em;
 	width:26%;
-}
-
-#divcalendar #divbody .col-2 {
-	width:52%;
-}
-
-#divcalendar #divbody .col-3 {
-	width:12%;
 }
 
 #divcalendar #divbody .col-1 ul {
