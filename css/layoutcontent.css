@@ -1058,7 +1058,6 @@ p {
 	text-align:justify;
 }
 
-#diveteeap #divbody .w3-row:nth-child(1) .column,
 #divvmgo #divbody .w3-row:nth-child(1) .column {
 	/*border:1px solid black;*/
 	float:left;
@@ -1337,6 +1336,7 @@ p {
 	font-size:30px;
 }
 
+#diveteeap #divbody .w3-row:nth-child(1) .column,
 #divresearch #divbody .w3-row:nth-child(1) .column {
 	float:left;
 }
