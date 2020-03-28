@@ -144,6 +144,7 @@
 		margin-left:24em;
 	}
 
+	#divresearch #divfndmore .w3-modal-content,
 	#divsps #divsaservices .w3-modal-content,
 	#divsps #divhandbook .w3-modal-content,
 	#divorg #divguidelines .w3-modal-content,
@@ -281,6 +282,7 @@
 		margin-left:5.2em;
 	}
 
+	#divresearch #divfndmore .w3-modal-content,
 	#divsps #divsaservices .w3-modal-content,
 	#divsps #divhandbook .w3-modal-content,
 	#divorg #divguidelines .w3-modal-content,
@@ -1055,7 +1057,6 @@ p {
 	text-align:justify;
 }
 
-#divresearch #divbody .w3-row:nth-child(1) .column,
 #diveteeap #divbody .w3-row:nth-child(1) .column,
 #divvmgo #divbody .w3-row:nth-child(1) .column {
 	/*border:1px solid black;*/
@@ -1333,7 +1334,10 @@ p {
 
 #divresearch #divbody h3 {
 	font-size:30px;
-	text-align:left;
+}
+
+#divresearch #divbody .w3-row:nth-child(1) .column {
+	float:left;
 }
 
 #divresearch #divbody .w3-row:nth-child(3) .column {
@@ -1754,6 +1758,7 @@ p {
 	text-align:justify;
 }
 
+#divresearch #divfndmore ul li,
 #divrodelsa #divconcert ul li {
 	padding:0.5em 0em;
 }
