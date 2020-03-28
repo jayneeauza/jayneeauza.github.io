@@ -339,6 +339,7 @@ p {
 	font-family:Montserrat;
 	background-color:transparent;
 	cursor:pointer;
+	outline:none;
 }
 
 #divindx .cl-btn1:hover {
