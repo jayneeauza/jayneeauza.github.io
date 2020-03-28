@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="icons/ico-liceo.png" />
+	<title>Liceo de Cagayan University</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/scroll.css">
+    <link rel="stylesheet" type="text/css" href="css/layoutcontent.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:1022px) and (max-width:1280px)" href="css/layoutcontent.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:1021px)" href="css/m/ss.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/layout.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+</head>
+<body>
+	<div id="divrodelsa" ng-app="">
+		<div id="divnav" class="w3-row w3-top" ng-include="'nav.html'">
+		</div>
+		<div class="cl-bod-cntnt w3-row">
+			<div id="divbody" class="w3-row">
+				<div class="w3-row cl-img">
+					<img src="images/rodelsa.png">
+				</div>
+				<div class="cl-txt w3-row">
+					<h3>RODELSA HALL</h3>
+					<p>The Rodelsa Hall is built along classic architectural lines employed on her facade. A world-class, state-of-the-art concert hall capable of accommodating a total seating capacity of 700, divided into two levels: balcony and orchestra seats. At stage level there are two star dressing rooms with wash rooms. Safety measures are in place with multiple ramps for wheelchairs and strategic fire exit ways.</p>
+					<p>The Rodelsa Hall is fully air conditioned with a professional stage and orchestra pit. Professional musicians and instrumentalists will discover a whole new experience at the Rodelsa Hall with a world-class professional light and sound system, furnished with a Concert Grand Grotrian Steinweg Piano and a secondary Parlor Grand.</p>
+					<button class="cl-btn">CONCERT COURTESY</button>
+				</div>
+				<div class="w3-row w3-center">
+					<h3>The Rodelsa Hall will make your every moment a treasured experience.</h3>
+				</div>
+				<div class="w3-row w3-center">
+					<h3 class="cl-bld">FOR BOOKING</h3>
+				</div>
+				<div id="divconcert" class="w3-modal">
+					<div class="w3-modal-content">
+						<header class="w3-container">
+							<h3 class="cl-bld">CONCERT COURTESY</h3>
+							<span class="w3-button w3-display-topright cl-cls">&times;</span>
+						</header>
+						<div class="w3-container">
+							<p>Attending a concert, a ballet, a play or any other performing arts presentation is a special occasion. To help you get the most enjoyment and satisfaction from attending such performances and to help others get the same benefit, the following suggestions on proper behavior at such events are offered. Observing them will greatly enhance the experience.</p>
+							<ul>
+								<li>Come on time or better still, come with some minutes to spare. This will give you ample time to find your seat, browse through the program or playbill and settle down and become comfortable with the surroundings. If a late arrival is unavoidable, do not insist on going up to the front of the house in the midst of the performance. Wait at the rear and find your seat during intermission.</li>
+								<li>Please make sure that all alarm watches, cellular phones, electric beepers are turned off or put on mute or vibra mode as these maye interfere with the sound system and the incessant “beep” is distracting.</li>
+								<li>Try to avoid conversations, even in whispers during a performance. Save any comments until the end of the number. The conversational buzz may irritate the rest of the audience or may distract the performer.</li>
+								<li>Avoid standing, moving around, fidgeting, finding your seat or exiting while a performance is going on.You owe the performing artists who have worked very hard to perfect their craft, the courtesy of your full attention. Children who are likely to become restless at such performances should not be brought at all. They are likely to annoy not only your seatmates but the artists as well.</li>
+								<li>If you want to take photographs of the artists during a performance, s\it should be best to clear the matter with the show manager. Flash photography will divert the artist’s concentration.</li>
+								<li>Do not scream or whistle. Appreciation is best expressed by shouts of “Bravo” at the very end of the performance or in between appropriate breaks. Strong and prolonged applause suggest to the performer that the audience wants an encore. Performers appreciate a responsive and appreciative audience.</li>
+							</ul>
+						</div>
+						<footer class="w3-container">
+							<!-- <p>Dr. Ma. Florecilla C. Cinches</p> -->
+						</footer>
+					</div>
+				</div>
+			</div>
+			<div id="divfooter" class="w3-row" ng-include="'footer.html'">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

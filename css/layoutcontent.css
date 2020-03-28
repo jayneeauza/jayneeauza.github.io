@@ -108,6 +108,7 @@
 	}
 
 	#divso #divbody .cl-txt,
+	#divrodelsa #divbody .cl-txt,
 	#divsophia #divbody .cl-txt,
 	#divguidance #divbody .cl-txt,
 	#divnstp #divbody .cl-txt {
@@ -132,6 +133,7 @@
 		margin-left:16em;
 	}
 
+	#divrodelsa #divbody,
 	#divenrollment #divbody,
 	#divorg #divbody,
 	#divdir #divbody,
@@ -145,6 +147,7 @@
 	#divsps #divsaservices .w3-modal-content,
 	#divsps #divhandbook .w3-modal-content,
 	#divorg #divguidelines .w3-modal-content,
+	#divrodelsa #divconcert .w3-modal-content,
 	#divsophia #divhseandreg .w3-modal-content {
 		height:800px;
 		overflow:auto;
@@ -249,6 +252,7 @@
 
 	#divso #divbody .cl-txt,
 	#divguidance #divbody .cl-txt,
+	#divrodelsa #divbody .cl-txt,
 	#divsophia #divbody .cl-txt,
 	#divnstp #divbody .cl-txt {
 		position:absolute;
@@ -266,6 +270,7 @@
 		color:#707070;
 	}
 
+	#divrodelsa #divbody,
 	#divorg #divbody,
 	#divenrollment #divbody,
 	#divlinkages #divbody,
@@ -279,6 +284,7 @@
 	#divsps #divsaservices .w3-modal-content,
 	#divsps #divhandbook .w3-modal-content,
 	#divorg #divguidelines .w3-modal-content,
+	#divrodelsa #divconcert .w3-modal-content,
 	#divsophia #divhseandreg .w3-modal-content {
 		height:500px;
 		overflow:auto;
@@ -311,10 +317,6 @@ p {
 	font-family:Montserrat;
 }
 
-/*div {
-	border:1px solid black;
-}*/
-
 #divnav {
 	background-color:#FFFFFF;
 }
@@ -333,6 +335,13 @@ p {
 	border-radius:20px;
 	padding:0.5em 2.5em 0.5em 2.5em;
 	font-family:Montserrat;
+	background-color:transparent;
+	cursor:pointer;
+}
+
+#divindx .cl-btn1:hover {
+	color:#FFFFFF;
+	background-color:#8D221C;
 }
 
 #divindx #divnav .w3-right div {
@@ -556,6 +565,7 @@ p {
 	font-size:14px;
 	font-weight:bold;
 	color:#8D221C;
+	cursor:pointer;
 }
 
 #divnewslist #divnews .column {
@@ -946,6 +956,7 @@ p {
 
 #divsps #divbody,
 #divso #divbody,
+#divrodelsa #divbody,
 #divsophia #divbody,
 #divnstp #divbody,
 #divguidance #divbody {
@@ -954,6 +965,7 @@ p {
 	/*height:400px;*/
 }
 
+#divrodelsa #divbody .cl-img,
 #divsophia #divbody .cl-img,
 #divso #divbody .cl-img,
 #divguidance #divbody .cl-img,
@@ -961,6 +973,7 @@ p {
 	height:400px;
 }
 
+#divrodelsa #divbody .cl-img img,
 #divsophia #divbody .cl-img img,
 #divso #divbody .cl-img img,
 #divguidance #divbody .cl-img img,
@@ -970,6 +983,7 @@ p {
 	opacity:0.2;
 }
 
+#divrodelsa #divbody .cl-txt h3,
 #divsps #divbody .cl-txt h3,
 #divorg #divbody .cl-txt h3,
 #divguidance #divbody .cl-txt h3,
@@ -982,6 +996,7 @@ p {
 
 #divsps #divbody .cl-txt p,
 #divso #divbody .cl-txt p,
+#divrodelsa #divbody .cl-txt p,
 #divsophia #divbody .cl-txt p,
 #divguidance #divbody .cl-txt p,
 #divnstp #divbody .cl-txt p {
@@ -998,6 +1013,7 @@ p {
 #divsps .cl-bod-cntnt .cl-btn,
 #divorg .cl-bod-cntnt .cl-btn,
 #divresearch .cl-bod-cntnt .cl-btn,
+#divrodelsa .cl-bod-cntnt .cl-btn,
 #divsophia .cl-bod-cntnt .cl-btn,
 #diveteeap .cl-bod-cntnt .cl-btn,
 #divguidance .cl-bod-cntnt .cl-btn,
@@ -1019,6 +1035,7 @@ p {
 #divsps .cl-bod-cntnt .cl-btn:hover,
 #divorg .cl-bod-cntnt .cl-btn:hover,
 #divresearch .cl-bod-cntnt .cl-btn:hover,
+#divrodelsa .cl-bod-cntnt .cl-btn:hover,
 #divsophia .cl-bod-cntnt .cl-btn:hover,
 #diveteeap .cl-bod-cntnt .cl-btn:hover,
 #divguidance .cl-bod-cntnt .cl-btn:hover,
@@ -1235,6 +1252,8 @@ p {
 	color:#8D221C;
 	margin-left:3em;
 	cursor:pointer;
+	outline:none;
+	background-color:transparent;
 }
 
 #divscholar .cl-btn:hover {
@@ -1453,11 +1472,16 @@ p {
 	margin-top:8px;
 }
 
+#divsophia #divbody .w3-row:nth-child(6),
+#divsophia #divbody .w3-row:nth-child(5),
+#divsophia #divbody .w3-row:nth-child(4),
+#divrodelsa #divconcert,
 #divsophia #divhseandreg {
 	color:#707070;
 }
 
 #divorg #divguidelines .w3-modal-content div,
+#divrodelsa #divconcert .w3-modal-content div,
 #divsophia #divhseandreg .w3-modal-content div {
 	padding:0em 2em;
 	text-align:justify;
@@ -1709,6 +1733,31 @@ p {
 	display:inline-block;
 }
 
+#divrodelsa #divbody .column {
+	float:left;
+	height:500px;
+	overflow:hidden;
+}
+
+#divrodelsa #divbody .right {
+	width:500px;
+	position:absolute;
+	right:100px;
+	background-color:#8D221C;
+	color:#FFFFFF;
+	padding:1em 2em;
+}
+
+#divrodelsa #divbody .right p {
+	font-size:12px;
+	font-family:Montserrat;
+	text-align:justify;
+}
+
+#divrodelsa #divconcert ul li {
+	padding:0.5em 0em;
+}
+
 #divfooter {
 	width:100%;
 	/*height:400px;*/
@@ -1786,10 +1835,16 @@ p {
 .cl-search {
 	border-radius:20px;
 	width:340px;
-	font-size:12px;
+	font-size:14px;
 	padding:0.8em 1.5em 0.8em 1.5em;
 	margin-right:1.5em;
 	margin-top:1em;
+	outline:none;
+	font-family:Nunito;
+}
+
+.cl-more {
+	cursor:pointer;
 }
 
 .cl-bld {

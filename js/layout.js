@@ -19,7 +19,7 @@ $(document).ready(function() {
 		$("#divfndmore").css("display", "block");
 	});
 
-	$("#divsophia .cl-txt  .cl-btn").click(function() {
+	$("#divsophia .cl-txt .cl-btn").click(function() {
 		$("#divhseandreg").css("display", "block");
 	});
 
@@ -37,6 +37,10 @@ $(document).ready(function() {
 
 	$("#divenrollment .btnsched").click(function() {
 		$("#divsched").css("display", "block");
+	});
+
+	$("#divrodelsa .cl-txt .cl-btn").click(function() {
+		$("#divconcert").css("display", "block");
 	});
 
 	$("#slctscholar").change(function(){
