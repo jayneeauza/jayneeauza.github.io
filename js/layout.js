@@ -7,8 +7,12 @@ $(document).ready(function() {
 		$(".w3-modal").css("display", "none");
 	});
 
-	$("#divnstp .cl-btn").click(function() {
-		$("#divnstpcntnt").css("display", "block");
+	$("#divnstp .btn-1").click(function() {
+		$("#divnstpcntnt1").css("display", "block");
+	});	
+
+	$("#divnstp .btn-2").click(function() {
+		$("#divnstpcntnt2").css("display", "block");
 	});	
 
 	$("#diveteeap .cl-btn").click(function() {
@@ -51,6 +55,18 @@ $(document).ready(function() {
                 $("." + optionValue).show();
             } else{
                 $("#divscholar .w3-table").hide();
+            }
+        });
+    }).change();
+
+    $("#slctdept").change(function() {
+    	$(this).find("option:selected").each(function(){
+            var optionValue = $(this).attr("value");
+            if(optionValue){
+                $("#divtuition .w3-table").not("." + optionValue).hide();
+                $("." + optionValue).show();
+            } else{
+                $("#divtuition .w3-table").hide();
             }
         });
     }).change();
