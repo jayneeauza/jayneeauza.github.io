@@ -133,7 +133,7 @@
 		margin-left:16em;
 	}
 
-	#divfee #divbody,
+	#divtuition #divbody,
 	#divrodelsa #divbody,
 	#divenrollment #divbody,
 	#divorg #divbody,
@@ -272,7 +272,7 @@
 		color:#707070;
 	}
 
-	#divfee #divbody,
+	#divtuition #divbody,
 	#divrodelsa #divbody,
 	#divorg #divbody,
 	#divenrollment #divbody,
@@ -1818,28 +1818,44 @@ p {
 	padding:0.5em 0em;
 }
 
-#divfee table td {
+#divtuition table td {
 	font-family:Montserrat;
 	letter-spacing:0.5px;
 }
 
-#divfee table td:nth-child(4),
-#divfee table td:nth-child(3),
-#divfee table td:nth-child(2) {
+#divtuition table td:nth-child(4),
+#divtuition table td:nth-child(3),
+#divtuition table td:nth-child(2) {
 	text-align:center;
 }
 
-#divfee table td:nth-child(4) {
+#divtuition table td:nth-child(4) {
 	font-weight:bold;
 }
 
-#divfee #divbody .w3-row:nth-child(1) {
+#divtuition #divbody .w3-row:nth-child(1) {
 	letter-spacing:0.5px;
+	margin-top:1em;
+}/*
+
+#divtuition #divbody .w3-row:nth-child(1) h4 {
+	margin-top:1em;
+}*/
+
+#divtuition select {
+	font-family:Nunito;
+	font-size:30px;
+	font-weight:bold;
+	color:#707070;
+	outline:none;
+	margin-bottom:0em;
 }
 
-#divfee #divbody .w3-row:nth-child(1) h4 {
-	margin-top:-0.5em;
+#divtuition option {
+	font-size:14px;
+	padding:1em 0em;
 }
+
 
 #divfooter {
 	width:100%;
