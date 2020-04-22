@@ -1,13 +1,20 @@
 <a href="index"><img src="icons/ico-ldcu.png" class="cl-ico-ldcu"></a>
-<div class="w3-right">
-	<div class="w3-row">
+<div id="divmnav">
+    <span class="w3-badge"></span>
+    <hr>
+    <span class="w3-badge"></span>
+    <hr>
+    <span class="w3-badge"></span>
+</div>
+<div class="divright">
+	<div class="w3-row mhdn">
 		<input type="text" class="w3-input w3-border w3-right cl-search" placeholder="Search...">
 	</div>
 	<div class="w3-row">
 		<ul class="clnav">
 			<li class="cl-nav-item"><a href="" class="cl-bld">President's Page</a></li>
-			<li class="cl-nav-item"><a class="cl-bld">ABOUT</a>
-				<ul>
+			<li class="cl-nav-item"><a class="cl-bld">ABOUT <i class="cl-m-arrw"></i></a>
+				<ul class="cl-nav-item-1">
 					<li><a href="">HISTORY</a></li>
 					<li><a href="vmgo">VMGO</a></li>
 					<li><a href="">ACCREDITATIONS</a></li>
@@ -16,25 +23,39 @@
 					<li><a href="">CULTURE & ARTS</a></li>
 				</ul>
 			</li>
-			<li class="cl-nav-item"><a class="cl-bld">ADMISSION</a>
-				<ul>
+			<li class="cl-nav-item"><a class="cl-bld">ADMISSION <i class="cl-m-arrw"></i></a>
+				<ul class="cl-nav-item-1">
 					<li><a href="enrollment">ENROLLMENT</a></li>
 					<li><a href="scholarship">SCHOLARSHIP</a></li>
 				</ul>
 			</li>
 			<li class="cl-nav-item"><a href="" class="cl-bld">ACADEMICS</a></li>
-			<li class="cl-nav-item"><a class="cl-bld">RESEARCH</a>
-				<ul>
+			<li class="cl-nav-item"><a class="cl-bld">RESEARCH <i class="cl-m-arrw"></i></a>
+				<ul class="cl-nav-item-1">
 					<li><a href="research">RESEARCH, PUBLICATION & EXTENSION</a></li>
 					<li><a href="linkages">LINKAGES</a></li>
 				</ul>
 			</li>
-			<li class="cl-nav-item"><a class="cl-bld">NEWS & EVENTS</a>
-				<ul>
+			<li class="cl-nav-item"><a class="cl-bld">NEWS & EVENTS <i class="cl-m-arrw"></i></a>
+				<ul class="cl-nav-item-1">
 					<li><a href="calendar">CALENDAR</a></li>
 					<li><a href="newslist">NEWS</a></li>
 				</ul>
 			</li>
 		</ul>
-	</div>				
+	</div>		
 </div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#divnav #divmnav").click(function() {
+	    	// $("#divnav .divright .w3-row:nth-child(2)").slideToggle();
+	    	$("#divnav .divright .w3-row:nth-child(2)").fadeToggle("fast");
+	    });
+	    $("#divnav .clnav .cl-nav-item").click(function() {
+	    	$(this).find("ul").slideToggle();
+    		// $(this).children("ul").show("slow");
+    		// $(this).children("ul").not(this).hide("slow");
+	    	// $(this).show().siblings("ul li").hide();
+	    });
+	});
+</script>

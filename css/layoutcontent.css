@@ -15,6 +15,100 @@
 }
 
 @media only screen and (min-width:1367px) {
+	#divmnav {
+		display:none;
+	}
+
+	#divnav .clnav {
+		float:right;
+		margin-top:0.5em;
+	}
+
+	#divnav .divright {
+		float:right;
+	}
+
+	#divnav ul {
+	    list-style: none;
+	    padding: 0;
+	    margin: 0;
+	}
+
+	#divnav ul li {
+	    display: block;
+	    position: relative;
+	    float: left;
+	    /*padding:0em 1em 0em 1em;*/
+	    cursor:pointer;
+	}
+
+	#divnav li ul {
+	    display: none;
+	}
+
+	#divnav ul li a {
+	    display: block;
+	    /*padding: 1em;*/
+	    text-decoration: none;
+	    white-space: nowrap;
+	    color: #8D221C;
+	    padding:1em 1.6em 1em 1.6em;
+	}
+
+	#divnav ul li a:hover {
+	    background: #CCCCCC;
+	}
+
+	#divnav > ul li:hover {
+	    background-color: #CCCCCC;
+	}
+
+	#divnav > ul li ul li:hover {
+	    background-color: #CCCCCC;
+	}
+
+	#divnav li:hover > ul {
+	    display: block;
+	    position: absolute;
+	}
+
+	#divnav li:hover li {
+	    float: none;
+	}
+
+	#divnav li:hover a {
+	    background: ;
+	}
+
+	#divnav li:hover li a:hover {
+	    background: #CCCCCC;
+	}
+
+	#divnav .clnav li ul li {
+	    border-top: 0;
+	    background: #FFFFFF;
+	}
+
+	#divnav .clnav li {
+		font-size:12px;
+	    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+
+	#divnav ul ul ul {
+	    left: 100%;
+	    top: 0;
+	}
+
+	#divnav ul:before,
+	#divnav ul:after {
+	    content: " ";
+	    display: table;
+	}
+
+	#divnav ul:after {
+	    clear: both;
+	}
+
 	#divfeature .cl-cntr {
 		position:relative;
 		left:19%;
@@ -81,6 +175,15 @@
 		margin-left:22em;
 	}
 
+	#divdept #divnews i {
+	  border: solid #8D221C;
+	  border-width: 0 6px 6px 0;
+	  display: inline-block;
+	  padding: 6px;
+	  margin-top:-10.6em;
+	  cursor:pointer;
+	}
+
 	#divdept #divnews .right {
 	  transform: rotate(-45deg);
 	  -webkit-transform: rotate(-45deg);
@@ -95,6 +198,23 @@
 
 	#divdept .cl-div-cntnt {
 		margin-left:26em;
+	}
+
+	#divdir #divbody .w3-row:nth-child(1) .cl-inpt {
+		padding:1em 1.5em;
+		font-family:Montserrat;
+		border:1px solid #ccc;
+	}
+
+	#divdir #divbody .w3-row:nth-child(1) input {
+		width:79.5%;
+		color:#707070;
+	}
+
+
+	#divdir #divbody .w3-row:nth-child(1) select {
+		width:20%;
+		color:#888;
 	}
 
 	#divadmin #divhead {
@@ -166,9 +286,114 @@
 	#divsps iframe {
 		height:738px;
 	}
+
+	.cl-search {
+		border-radius:20px;
+		width:340px;
+		font-size:14px;
+		padding:0.8em 1.5em 0.8em 1.5em;
+		margin-right:1.5em;
+		margin-top:1em;
+		outline:none;
+		font-family:Nunito;
+	}
 }
 
 @media only screen and (min-width:361px) and (max-width:1366px) {
+	#divmnav {
+		display:none;
+	}
+
+	#divnav .clnav {
+		float:right;
+		margin-top:0.5em;
+	}
+
+	#divnav .divright {
+		float:right;
+	}
+
+	#divnav ul {
+	    list-style: none;
+	    padding: 0;
+	    margin: 0;
+	}
+
+	#divnav ul li {
+	    display: block;
+	    position: relative;
+	    float: left;
+	    /*padding:0em 1em 0em 1em;*/
+	    cursor:pointer;
+	}
+
+	#divnav li ul {
+	    display: none;
+	}
+
+	#divnav ul li a {
+	    display: block;
+	    /*padding: 1em;*/
+	    text-decoration: none;
+	    white-space: nowrap;
+	    color: #8D221C;
+	    padding:1em 1.6em 1em 1.6em;
+	}
+
+	#divnav ul li a:hover {
+	    background: #CCCCCC;
+	}
+
+	#divnav > ul li:hover {
+	    background-color: #CCCCCC;
+	}
+
+	#divnav > ul li ul li:hover {
+	    background-color: #CCCCCC;
+	}
+
+	#divnav li:hover > ul {
+	    display: block;
+	    position: absolute;
+	}
+
+	#divnav li:hover li {
+	    float: none;
+	}
+
+	#divnav li:hover a {
+	    background: ;
+	}
+
+	#divnav li:hover li a:hover {
+	    background: #CCCCCC;
+	}
+
+	#divnav .clnav li ul li {
+	    border-top: 0;
+	    background: #FFFFFF;
+	}
+
+	#divnav .clnav li {
+		font-size:12px;
+	    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+
+	#divnav ul ul ul {
+	    left: 100%;
+	    top: 0;
+	}
+
+	#divnav ul:before,
+	#divnav ul:after {
+	    content: " ";
+	    display: table;
+	}
+
+	#divnav ul:after {
+	    clear: both;
+	}
+
 	#divfeature .cl-cntr {
 		position:relative;
 		left:6%;
@@ -221,6 +446,15 @@
 		width:1400px;
 	}
 
+	#divdept #divnews i {
+	  border: solid #8D221C;
+	  border-width: 0 6px 6px 0;
+	  display: inline-block;
+	  padding: 6px;
+	  margin-top:-10.6em;
+	  cursor:pointer;
+	}
+
 	#divdept #divnews .right {
 	  transform: rotate(-45deg);
 	  -webkit-transform: rotate(-45deg);
@@ -235,6 +469,22 @@
 
 	#divdept .cl-div-cntnt {
 		margin-left:8em;
+	}
+
+	#divdir #divbody .w3-row:nth-child(1) .cl-inpt {
+		padding:1em 1.5em;
+		font-family:Montserrat;
+		border:1px solid #ccc;
+	}
+
+	#divdir #divbody .w3-row:nth-child(1) input {
+		width:79.5%;
+		color:#707070;
+	}
+
+	#divdir #divbody .w3-row:nth-child(1) select {
+		width:20%;
+		color:#888;
 	}
 
 	#divadmin #divhead {
@@ -311,6 +561,16 @@
 		height:438px;
 	}
 
+	.cl-search {
+		border-radius:20px;
+		width:340px;
+		font-size:14px;
+		padding:0.8em 1.5em 0.8em 1.5em;
+		margin-right:1.5em;
+		margin-top:1em;
+		outline:none;
+		font-family:Nunito;
+	}
 }
 
 h2, h3, h4, h5, h6 {
@@ -324,7 +584,6 @@ p {
 #divnav {
 	background-color:#FFFFFF;
 }
-
 .cl-bod-cntnt {
 	margin-top:6.8em;
 }
@@ -398,7 +657,7 @@ p {
 }
 
 #divprog {
-	margin:1em 1.5em 0em 1.5em;
+	padding:1em 1.5em 0em 1.5em;
 }
 
 #divprog .w3-row span {
@@ -485,6 +744,10 @@ p {
 	font-family:Montserrat;
 	font-weight:bold;
 	cursor:pointer;
+}
+
+#divindx #divupevent .cl-clndr img {
+	margin-right:0.3em;
 }
 
 #divfeature {
@@ -803,7 +1066,7 @@ p {
 	border-radius:50%;
 	height:150px;
 	width:150px;
-}
+} 
 
 #divdept .cl-div-cntnt .right .right h6 {
 	margin-top:-1em;
@@ -834,15 +1097,6 @@ p {
 
 #divdept .cl-div-cntnt .right .cl-mar-top1 {
 	margin-top:2em;
-}
-
-#divdept #divnews i {
-  border: solid #8D221C;
-  border-width: 0 6px 6px 0;
-  display: inline-block;
-  padding: 6px;
-  margin-top:-10.6em;
-  cursor:pointer;
 }
 
 #divadmin .cl-vl {
@@ -1139,7 +1393,7 @@ p {
 }
 
 #divresearch #divbody .w3-row,
-#diveteeap #divbody .w3-row,
+/*#diveteeap #divbody .w3-row,*/
 #divvmgo #divbody .w3-row {
 	/*border:1px solid black;*/
 	padding:1em 0em;
@@ -1363,8 +1617,8 @@ p {
 
 #divsps .cl-tbl-lst,
 #divorg .cl-tbl-lst,
-#divlinkages .cl-tbl-lst,
-#diveteeap .cl-tbl-lst {
+#diveteeap .cl-tbl-lst, 
+#divlinkages .cl-tbl-lst {
 	width:100%;
 	font-family:Montserrat;
 	font-size:14px;
@@ -1373,16 +1627,24 @@ p {
 }
 
 #divsps #divsaservices .cl-tbl-lst td,
-#divlinkages .cl-tbl-lst td,
-#diveteeap .cl-tbl-lst td {
+/*#diveteeap .cl-tbl-lst td,*/
+#divlinkages .cl-tbl-lst td {
 	border-left:4px solid #8D221C;
 	padding:0.5em 0.5em;
 	margin-bottom:1em;
 	/*width:33.3%;*/
 }
 
-#diveteeap .cl-tbl-lst td:nth-child(1) {
-	width:300px;
+#diveteeap #divbody .cl-tbl-lst .column {
+	float:left;
+	width:33.3%;
+	border-left:4px solid #8D221C;
+	padding:0.5em 0.5em;
+	margin-bottom:1em;
+}
+
+#diveteeap #divbody .w3-row:nth-child(3) {
+	padding:0;
 }
 
 #divresearch #divbody h3 {
@@ -1420,22 +1682,6 @@ p {
 
 #divlinkages .cl-tbl-lst td {
 	width:50%;
-}
-
-#divdir #divbody .w3-row:nth-child(1) input {
-	width:79.5%;
-	color:#707070;
-}
-
-#divdir #divbody .w3-row:nth-child(1) select {
-	width:20%;
-	color:#888;
-}
-
-#divdir #divbody .w3-row:nth-child(1) .cl-inpt {
-	padding:1em 1.5em;
-	font-family:Montserrat;
-	border:1px solid #ccc;
 }
 
 #divdir #divbody table {
@@ -1931,17 +2177,6 @@ p {
     /*margin-left:1em;*/
 }
 
-.cl-search {
-	border-radius:20px;
-	width:340px;
-	font-size:14px;
-	padding:0.8em 1.5em 0.8em 1.5em;
-	margin-right:1.5em;
-	margin-top:1em;
-	outline:none;
-	font-family:Nunito;
-}
-
 .cl-more {
 	cursor:pointer;
 }
@@ -1983,87 +2218,3 @@ p {
 /*#divlink .w3-left, #divlink .w3-right, #divlink .w3-badge {cursor:pointer}*/
 /*#divlink .w3-badge {height:13px;width:13px;padding:0;border:1px solid;}*/
 /****************************/
-#divnav .clnav {
-	float:right;
-	margin-top:0.5em;
-}
-#divnav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#divnav ul li {
-    display: block;
-    position: relative;
-    float: left;
-    /*padding:0em 1em 0em 1em;*/
-    cursor:pointer;
-}
-
-#divnav li ul {
-    display: none;
-}
-
-#divnav ul li a {
-    display: block;
-    /*padding: 1em;*/
-    text-decoration: none;
-    white-space: nowrap;
-    color: #8D221C;
-    padding:1em 1.6em 1em 1.6em;
-}
-
-#divnav ul li a:hover {
-    background: #CCCCCC;
-}
-
-#divnav > ul li:hover {
-    background-color: #CCCCCC;
-}
-
-#divnav > ul li ul li:hover {
-    background-color: #CCCCCC;
-}
-
-#divnav li:hover > ul {
-    display: block;
-    position: absolute;
-}
-
-#divnav li:hover li {
-    float: none;
-}
-
-#divnav li:hover a {
-    background: ;
-}
-
-#divnav li:hover li a:hover {
-    background: #CCCCCC;
-}
-
-#divnav .clnav li ul li {
-    border-top: 0;
-    background: #FFFFFF;
-}
-
-#divnav .clnav li {
-	font-size:12px;
-    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-}
-
-#divnav ul ul ul {
-    left: 100%;
-    top: 0;
-}
-
-#divnav ul:before,
-#divnav ul:after {
-    content: " ";
-    display: table;
-}
-
-#divnav ul:after {
-    clear: both;
-}

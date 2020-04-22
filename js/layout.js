@@ -75,6 +75,12 @@ $(document).ready(function() {
 		$("#divexmsched").css("display", "block");
     });
 
+    $("#divnav").on("click", "#divmnav", function() {
+    	alert("ads");
+    });
+
+  
+
 	showDivs(slideIndex);
 	showPage(sIndex);
 
