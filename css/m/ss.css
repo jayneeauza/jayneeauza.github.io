@@ -1,5 +1,120 @@
 @charset "utf-8";
 
+@media only screen and (max-width:599px) {
+
+	#divindx #divvids video {
+		width:300px;
+		margin-bottom:0.5em;
+	}
+
+	#divprog {
+		padding:0;
+	}
+
+	#divprog .column {
+		width:240px;
+		margin:0.5em 0em 0em 0em;
+	}
+
+	#divlink .cl-link .arrow {
+		display:none;
+	}
+
+	#divindx #divlink .cl-link {
+		height:400px;
+	}
+
+	#divupevent .cl-event {
+		padding-bottom:0.5em;
+	}
+
+	#divupevent .cl-event .cl-evnt-cntnt {
+		width:400px;
+		display:inline-block;
+		color:#8D221C;
+	}
+
+	#divupevent .cl-event .column .right {
+		width:80%;
+	}
+}
+
+@media only screen and (min-width:600px) {
+	#divindx #divslide {
+		width:100%;
+		height:250px;
+		overflow:hidden;
+	}
+
+	#divindx #divvids video {
+		width:400px;
+	}
+
+	#divvids .column {
+		margin-bottom:0.5em;
+	}
+
+	#divprog {
+		padding:0;
+	}
+
+	#divprog .column {
+		width:280px;
+		margin:0.5em 0em 0em 0em;
+	}
+
+	#divlink .cl-cntr .column {
+		padding:0em 1em;
+	}
+
+	#divlink .cl-cntr video {
+		height:300px;
+	}
+
+	#divindx #divlink .cl-link {
+		height:240px;
+	}
+
+	#divlink .cl-link .arrow {
+		display:none;
+	}
+
+	#divupevent .cl-event {
+		padding-bottom:0.5em;
+	}
+
+	#divupevent .cl-event .cl-evnt-cntnt {
+		width:400px;
+		display:inline-block;
+		color:#8D221C;
+	}
+
+	#divupevent .cl-event .column .right {
+		width:80%;
+	}
+}
+
+@media only screen and (min-width:768px) {
+	#divindx #divvids video {
+		width:500px;
+		height:260px;
+		margin-bottom:0.5em;
+	}
+
+	#divprog {
+		padding:0;
+	}
+
+	#divprog .column {
+		width:280px;
+		margin:0.5em 0em 0em 0em;
+	}
+
+	#divvids .column {
+		margin:0;
+	}
+}
+
 #divmnav {
 	float:right;
 	margin:0.5em 1em;
@@ -87,12 +202,7 @@
 
 #divindx #divslide {
 	width:100%;
-	height:166px;
 	overflow:hidden;
-}
-
-#divindx #divvids video {
-	width:300px;
 }
 
 #divindx #divprog {
@@ -165,9 +275,16 @@
 	width:100%;
 }
 
+#divlink .cl-cntr .left {
+	padding:2.5em 1em 0em 1em;
+	text-align:left;
+	color:#8D221C;
+}
+	
+/*
 #divindx #divlink .cl-link {
 	height:390px;
-}
+}*/
 
 #divnewspage .cl-div-bod {
 	width:100%;
