@@ -253,6 +253,7 @@
 		margin-left:16em;
 	}
 
+	#divsophia #divbody,
 	#divtuition #divbody,
 	#divrodelsa #divbody,
 	#divenrollment #divbody,
@@ -522,6 +523,7 @@
 		color:#707070;
 	}
 
+	#divsophia #divbody,
 	#divtuition #divbody,
 	#divrodelsa #divbody,
 	#divorg #divbody,
@@ -1216,7 +1218,6 @@ p {
 #divsps #divbody,
 #divso #divbody,
 #divrodelsa #divbody,
-#divsophia #divbody,
 #divnstp #divbody,
 #divguidance #divbody {
 	margin:auto;
@@ -1315,58 +1316,67 @@ p {
 	font-size:12px;
 	text-align:justify;
 }
-/*
-#divnstp #divnews .column {
-	display:inline-block;
-	width:200px;
-	margin:1em 1em 0em 1em;
-	text-align:left;
-	height:620px;
-	border:1px solid black;
-}*/
 
 #divnstp #divbody .w3-row:nth-child(4) {
-	padding-left:2em;
+	font-family:Montserrat;
+	text-align:justify;
+	font-size:14px;
+	padding:1em 0em;
 }
 
 #divnstp #divbody .w3-row:nth-child(4) .column {
-	/*display:inline-block;*/
+	width:20%;
 	float:left;
-	width:200px;
-	height:620px;
-	margin:1em 1em 0em 1em;
-	/*border:1px solid black;*/
+	padding:0em 1em;
+}
+
+#divnstp #divbody .w3-row:nth-child(5) .column {
+	float:left;
+	width:20%;
 	text-align:justify;
+	padding:0.3em;
 }
 
-#divnstp #divbody .w3-row:nth-child(4) .column ul li {
-	font-size:12px;
-	margin:0em;
-	/*padding:0;*/
-}
-
-#divnstp #divbody .w3-row:nth-child(4) span {
+#divnstp #divbody .w3-row:nth-child(5) .column .w3-row:nth-child(1) {
+	height:40px;
 	font-family:Nunito;
+	font-size:18px;
+	text-align:center;
+	vertical-align:middle;
+	letter-spacing:1px;
+	font-weight:bold;
+	background-color:#8D221C;
+	color:#FFFFFF;
+	padding-top:0.4em;
 }
 
-#divnstp #divbody .w3-row:nth-child(4) p {
-	text-align:left;
-	font-family:Montserrat;
+#divnstp #divbody .w3-row:nth-child(5) .column .w3-row:nth-child(2) {
+	height:100px;
 	font-size:12px;
+	padding:1em;
 }
 
-#divnstp #divbody .w3-row:nth-child(4) .cl-div-img {
-	width:100%;
-	overflow:hidden;
-	margin-bottom:1em;
+/*#divnstp #divbody .w3-row:nth-child(4) .column .w3-row:nth-child(3) {
+	padding:1em;
+}*/
+
+#divnstp #divbody .w3-row:nth-child(5) .column ul {
+	margin:0;
+	padding:0.5em 1em 0em 1em;
 }
 
-#divnstp #divbody .w3-row:nth-child(4) .cl-div-img img {
+#divnstp #divbody .w3-row:nth-child(5) .column ul li {
+	font-size:12px;
+	margin:2em 0em;
+	font-family:Montserrat;
+	list-style-type:none;
+}
+
+#divnstp #divbody .w3-row:nth-child(5) .cl-div-img img {
 	width:100%;
 }
 
 #divvmgo #divbody .w3-row:nth-child(1) .column {
-	/*border:1px solid black;*/
 	float:left;
 	height:420px;
 }
@@ -1615,6 +1625,7 @@ p {
 	cursor:pointer;
 }
 
+#divsophia .cl-tbl-lst,
 #divsps .cl-tbl-lst,
 #divorg .cl-tbl-lst,
 #diveteeap .cl-tbl-lst, 
@@ -1626,13 +1637,31 @@ p {
 	border-spacing:20px;
 }
 
-#divsps #divsaservices .cl-tbl-lst td,
-/*#diveteeap .cl-tbl-lst td,*/
-#divlinkages .cl-tbl-lst td {
+#divsps #divsaservices .cl-tbl-lst td {
 	border-left:4px solid #8D221C;
 	padding:0.5em 0.5em;
 	margin-bottom:1em;
 	/*width:33.3%;*/
+}
+
+#divsps #divbody .cl-tbl-lst .column {
+	height:140px;
+}
+
+#divsps #divbody .cl-tbl-lst .column {
+	float:left;
+	width:25%;
+	padding:0.5em 0.5em;
+	text-align:center;
+	border:1px solid red;
+}
+
+#divlinkages #divbody .cl-tbl-lst .column {
+	float:left;
+	width:50%;
+	border-left:4px solid #8D221C;
+	padding:0.5em 0.5em;
+	margin-bottom:2em;
 }
 
 #diveteeap #divbody .cl-tbl-lst .column {
@@ -1680,8 +1709,12 @@ p {
 	font-weight:bold;
 }
 
-#divlinkages .cl-tbl-lst td {
-	width:50%;
+#divlinkages #divbody .cl-brdr-bottom {
+	margin:1em 0em;
+}
+
+#divlinkages .cl-tbl-lst {
+	padding:1em 2em;
 }
 
 #divdir #divbody table {
@@ -1723,10 +1756,29 @@ p {
 	/*line-height: 100px;*/
 }
 
-#divorg .cl-tbl-lst .column:nth-child(2),
-#divsophia .cl-tbl-lst .column:nth-child(2) {
-	padding:1.2em 0em 0em 1em; 
+#divsophia #divbody .w3-row:nth-child(4) .cl-tbl-lst,
+#divorg #divbody .w3-row:nth-child(2) .cl-tbl-lst {
+	padding-left:1em;
 }
+
+#divsophia #divbody .w3-row:nth-child(4) .cl-tbl-lst > .column,
+#divorg #divbody .w3-row:nth-child(2) .cl-tbl-lst > .column {
+	width:33.3%;
+}
+
+#divsophia #divbody .w3-row:nth-child(4) .cl-tbl-lst .column > .column:nth-child(2),
+#divorg #divbody .w3-row:nth-child(2) .cl-tbl-lst .column > .column:nth-child(2) {
+	margin-top:1.5em;
+	padding-left:1em;
+}
+
+#divorg #divbody .w3-row:nth-child(2) {
+	padding:1em 0em 0em 1em;
+}
+
+/*#divsophia .cl-tbl-lst .column:nth-child(2) {
+	padding:1.2em 0em 0em 1em; 
+}*/
 
 #divsophia .cl-tbl-lst .column .cl-lbl {
 	letter-spacing:0.5px;
@@ -1798,16 +1850,22 @@ p {
 	text-align:justify;
 }
 
-#divorg #divbody .cl-tbl-1 .cl-tbl-lst td {
+#divorg #divbody .cl-tbl-lst-1 {
+	padding:1.5em 2em;
+}
+
+#divorg #divbody .cl-tbl-lst-1 .column {
 	border-left:4px solid #F2B220;
 	padding:0.5em 0.5em;
 	margin-bottom:1em;
+	width:50%;
+	float:left;
 }
 
-#divorg #divbody .w3-row,
+/*#divorg #divbody .w3-row,
 #divorg #divbody .cl-tbl-lst {
 	padding:1em 0em;
-}
+}*/
 
 #divorg .cl-bod-cntnt .cl-btn {
 	width:220px;
@@ -1818,9 +1876,9 @@ p {
 	color:#888;
 }
 
-#divsps .cl-tbl-lst td {
+/*#divsps .cl-tbl-lst td {
 	text-align:center;
-}
+}*/
 
 #divsps .w3-row .cl-tbl-lst td span {
 	font-weight:bold;

@@ -271,7 +271,13 @@
 	margin-right:2em;
 }
 
+#divscholar,
+#divguidance,
+#divsophia,
+#divorg,
+#divlinkages,
 #divdept,
+#diveteeap,
 #divvmgo,
 #divdir,
 #divso,
@@ -296,30 +302,67 @@
 	border-spacing:20px;
 }
 
+#divorg #divbody .cl-tbl-lst-1 .column {
+	border-left:4px solid #F2B220;
+	padding:0.5em 0.5em;
+	margin-bottom:1em;
+}
+
+#divlinkages #divbody .cl-tbl-lst .column,
 #diveteeap #divbody .cl-tbl-lst .column {
 	border-left:4px solid #8D221C;
 	padding:0.5em 0.5em;
 	margin-bottom:1em;
 } 
 
+#divorg #divbody .w3-row:nth-child(2) .cl-tbl-lst-1 {
+	padding:1em 1em;
+}
+
+#divorg #divbody .w3-row:nth-child(2) .cl-tbl-lst-1 .column {
+	width:100%;
+}
+
 #diveteeap #divbody .w3-row:nth-child(3) {
 	padding:0em 1em;
 }
 
+#divnstp .cl-bld,
+#divorg .cl-bld,
+#divlinkages .cl-bld,
 #divvmgo .cl-bld,
 #diveteeap .cl-bld,
 #divresearch .cl-bld {
 	font-weight:bold;
 }
 
+#divnstp #divbody .w3-row:nth-child(2) .cl-btn,
+#divsophia #divbody .w3-row:nth-child(2) .cl-btn,
+#divguidance #divbody .cl-txt .cl-btn,
+#divsps #divbody .cl-btn,
+#divorg #divbody .cl-btn,
 #divresearch #divbody .cl-btn,
 #diveteeap #divbody .cl-btn {
 	width:100%;
 	padding:0.8em 0em;
+	margin-bottom:0.5em;
+}
+
+#divsophia #divbody .w3-row:nth-child(3) .cl-btn {
+	margin:1em 0em 0em 0em;
+	width:300px;
+}
+
+#divsophia #divbody .w3-row:nth-child(3) {
+	margin:0.5em 0em;
+}
+
+#divsophia #divbody .w3-row:nth-child(5) .column {
+	padding:0em 0em 1em 0em;
 }
 
 #divlinkages #divbody .w3-row {
-	border:1px solid black;
+	padding:0em 0.5em;
 }
 
 #divresearch #divbody .cl-txt h3 {
@@ -332,12 +375,37 @@
 }
 
 #divscholar #divbody {
-	/*border:1px solid black;*/
 	width:100%;
 	overflow-x:auto;
-
 }
 
+#divorg #divbody .w3-row:nth-child(2) {
+	/*padding:0em 1em;*/
+}
+
+#divorg #divbody .w3-row:nth-child(2) .cl-tbl-lst .column > .column {
+	width:90%;
+	text-align:center;
+	margin:0;
+	padding:0;
+	margin-left:0.7em;
+}
+
+#divsophia #divbody .w3-row:nth-child(4) .cl-tbl-lst .column .column:nth-child(2),
+#divorg #divbody .w3-row:nth-child(2) .cl-tbl-lst .column .column:nth-child(2) {
+	height:70px;
+	padding:0;
+}
+
+#divnstp #divbody .w3-row:nth-child(5) .column,
+#divnstp #divbody .w3-row:nth-child(4) .column,
+#divscholar #divbody .w3-row,
+#divenrollment #divbody .column-1,
+#divsophia #divbody .w3-row:nth-child(5) .column,
+#divsophia #divbody .w3-row:nth-child(4) .cl-tbl-lst,
+#divsophia #divbody .w3-row,
+#divorg #divbody .w3-row,
+#divlinkages #divbody .w3-row:nth-child(2) .column,
 #diveteeap #divbody .w3-row:nth-child(2) .column,
 #diveteeap #divbody .left,
 #diveteeap #divbody .left img,
@@ -348,22 +416,29 @@
 #divresearch #divbody .w3-row:nth-child(2) .column,
 #divresearch #divbody .w3-row:nth-child(3) .column {
 	width:100%;
+	border:1px solid transparent;
 }
 
+#divorg #divbody .w3-row:nth-child(2),
+#divorg #divbody .w3-row:nth-child(2) .cl-tbl-lst {
+	padding:0;
+	margin:0;
+}
+
+#divorg #divbody .w3-row:nth-child(2) h4,
 #divadmin #divhead h3 {
 	text-align:center;
 }
 
+#divsophia #divbody .w3-row:nth-child(4) .cl-tbl-lst .column .column,
 #divadmin #divhead .column,
 #divadmin #divhead .column:nth-child(3),
 #divadmin #divbody .column {
 	width:100%;
-	/*margin-left:0em;*/
 	text-align:center;
 }
 
-#divso #divbody,
-#divnstp #divbody {
+#divso #divbody {
 	text-align:center;
 }
 
@@ -373,9 +448,14 @@
 	width:100%;
 }
 
+#divsophia #divbody .w3-row:nth-child(4) .cl-tbl-lst .column,
+#divorg #divbody .w3-row:nth-child(2) .cl-tbl-lst .column,
+#divsps #divbody .w3-row:nth-child(2) .column {
+	width:50%;
+}
+
 #divenrollment #divbody,
 #divsps #divbody,
-#divsps #divbody table td,
 #divguidance #divbody,
 #divguidance #divbody .w3-row:nth-child(4) .column,
 #divso #divbody,
@@ -387,6 +467,8 @@
 	margin:0;
 }
 
+#divsophia #divbody #img-loc-sop,
+#divsophia #divbody .cl-img,
 #divso #divbody .cl-img,
 #divnstp #divbody .cl-img {
 	height:200px;
@@ -395,6 +477,14 @@
 #divguidance #divbody .cl-txt h3,
 #divnstp #divbody .cl-txt h3 {
 	font-size:24px;
+}
+
+#divnstp #divbody .w3-row:nth-child(4) .column {
+	padding:0.5em 0em;
+}
+
+#divnstp #divbody .w3-row:nth-child(5) .column .w3-row:nth-child(2) {
+	height:70px;
 }
 
 #divvmgo .cl-bod-cntnt #divbody .w3-row .column {
