@@ -9,7 +9,8 @@
     <link rel="stylesheet" type="text/css" href="css/scroll.css">
     <link rel="stylesheet" type="text/css" href="css/layoutcontent.css">
     <link rel="stylesheet" type="text/css" media="screen and (min-width:1022px) and (max-width:1280px)" href="css/layoutcontent.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width:1021px)" href="css/m/ss.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:601px)" href="css/m/ss.css">
+    <!-- <link rel="stylesheet" type="text/css" media="screen and (max-width:1021px)" href="css/m/ss.css"> -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/layout.js"></script>
     <script type="text/javascript" src="js/angular.min.js"></script>
@@ -128,8 +129,14 @@
 				</div>
 			</div>
 			<div id="divupevent" class="w3-row cl-bg-yllw1">
-				<h3>UPCOMING EVENTS</h3>
-				<a href="calendar" class="w3-right cl-clndr"><img src="icons/ico-calendar.png" width="18">View Calendar</a>
+				<div class="w3-row" align="center">
+					<div class="column">
+						<h3>UPCOMING EVENTS</h3>
+					</div>
+					<div class="column">
+						<a href="calendar" class="cl-clndr"><img src="icons/ico-calendar.png" width="18">View Calendar</a>
+					</div>
+				</div>
 				<div class="cl-event w3-row" align="center">
 					<div class="column cl-evnt-cntnt">
 						<div class="column">
@@ -164,7 +171,7 @@
 				</div>
 			</div>
 			<div id="divfeature" class="w3-row cl-bg-yllw1">
-				<div class="cl-cntr" align="center">
+				<div>
 					<div class="column left">
 						<img src="images/rodelsahall.jpg">
 					</div>
