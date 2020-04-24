@@ -127,16 +127,6 @@
 		text-align:center;
 	}
 
-/*	#divindx #divupevent .cl-clndr {
-		margin-right:24em;
-		margin-top:-2.5em;
-		color:#8D221C;
-		text-decoration:none;
-		font-family:Montserrat;
-		font-weight:bold;
-		cursor:pointer;
-	}*/
-
 	#divnewslist #divnews {
 		/*border:1px solid black;*/
 		width:1200px;
@@ -304,6 +294,11 @@
 }
 
 @media only screen and (min-width:601px) and (max-width:1366px) {
+
+	#divmnav {
+		display:none;
+	}
+
 	#divnav .clnav {
 		float:right;
 		margin-top:0.5em;
@@ -399,10 +394,6 @@
 		color:#8D221C;
 		text-align:center;
 	}
-/*
-	#divupevent h3 {
-		margin-left:3.4em;
-	}*/
 
 	#divlink .cl-cntr {
 		margin:0;
