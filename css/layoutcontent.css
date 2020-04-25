@@ -1944,7 +1944,7 @@ p {
 	width:25%;
 	padding:0.5em 0.5em;
 	text-align:center;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 
 #divlinkages #divbody .cl-tbl-lst .column {
