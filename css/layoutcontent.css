@@ -453,6 +453,20 @@
 		margin:1em 1.5em 0em 1.5em;
 	}
 
+	#divupevent .cl-event {
+		padding-bottom:0.5em;
+	}
+
+	#divupevent .cl-event .cl-evnt-cntnt {
+		width:300px;
+		display:inline-block;
+		color:#8D221C;
+	}
+
+	#divupevent .cl-event .column .right {
+		width:70%;
+	}
+
 	#divfeature .right {
 		padding:0em 0em 0em 2.5em;
 		color:#8D221C;
