@@ -330,6 +330,13 @@
 		width:25%;
 	}
 
+	#divcalendar #divbody #idday {
+		font-family:Montserrat;
+		font-size:50px;
+		color:#D1A6A4;
+		margin-left:1em;
+	}
+
 	.cl-ico-ldcu {
 	    width: 346px;
 	    height: 86px;
@@ -661,6 +668,13 @@
 		width:12%;
 	}
 
+	#divcalendar #divbody #idday {
+		font-family:Montserrat;
+		font-size:40px;
+		color:#D1A6A4;
+		margin-left:1.2em;
+	}
+
 	#divsps iframe {
 		height:438px;
 	}
@@ -933,6 +947,13 @@
 
 	#divnewspage .cl-img-cntnt {
 		margin-bottom:1em;
+	}
+
+	#divcalendar #divbody #idday {
+		font-family:Montserrat;
+		font-size:40px;
+		color:#D1A6A4;
+		margin-left:1.2em;
 	}
 
 	.cl-ico-ldcu {
@@ -2287,13 +2308,6 @@ p {
 	letter-spacing:1px;
 	margin-left:0.7em;
 	font-family:Nunito;
-}
-
-#divcalendar #divbody #idday {
-	font-family:Montserrat;
-	font-size:50px;
-	color:#D1A6A4;
-	margin-left:1em;
 }
 
 #divcalendar #divbody #iddate {
