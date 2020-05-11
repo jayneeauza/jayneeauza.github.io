@@ -91,7 +91,7 @@
 
 	#divnav .clnav li {
 		font-size:12px;
-	    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	    /*font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;*/
 	}
 
 	#divnav ul ul ul {
@@ -344,11 +344,11 @@
 
 	.cl-search {
 		border-radius:20px;
-		width:340px;
+		/*width:340px;*/
 		font-size:14px;
 		padding:0.8em 1.5em 0.8em 1.5em;
-		margin-right:1.5em;
-		margin-top:1em;
+		/*margin-right:1.5em;*/
+		/*margin-top:1em;*/
 		outline:none;
 		font-family:Nunito;
 	}
@@ -431,7 +431,7 @@
 
 	#divnav .clnav li {
 		font-size:12px;
-	    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	    /*font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;*/
 	}
 
 	#divnav ul ul ul {
@@ -691,7 +691,7 @@
 
 	.cl-search {
 		border-radius:20px;
-		width:340px;
+		/*width:340px;*/
 		font-size:14px;
 		padding:0.8em 1.5em 0.8em 1.5em;
 		margin-right:1.5em;
@@ -777,7 +777,7 @@
 
 	#divnav .clnav li {
 		font-size:12px;
-	    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	    /*font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;*/
 	}
 
 	#divnav ul ul ul {
@@ -963,7 +963,7 @@
 
 	.cl-search {
 		border-radius:20px;
-		width:340px;
+		/*width:340px;*/
 		font-size:14px;
 		padding:0.8em 1.5em 0.8em 1.5em;
 		margin-right:1.5em;
@@ -985,13 +985,30 @@ p {
 	background-color:#FFFFFF;
 }
 
+#divnav .clnav li {
+	font-family:Montserrat;
+	letter-spacing:0.4px;
+}
+
+#divnav .divright .w3-row:nth-child(1) {
+	padding:1em 1em 0em 1em;
+}
+
+#divnav .divright .w3-row:nth-child(1) .column {
+	float:left;
+	width:50%;
+}
+
+#divnav .divright .cl-search {
+	width:100%;
+}
+
 .cl-bod-cntnt {
 	margin-top:6.8em;
 }
 
-#divindx #divnav .w3-right {
-	width:50%;
-	float:right;
+#divbody {
+	padding-bottom:1em;
 }
 
 #divindx .cl-btn1 {
@@ -1626,8 +1643,8 @@ p {
 #diveteeap .cl-bod-cntnt .cl-btn:hover,
 #divguidance .cl-bod-cntnt .cl-btn:hover,
 #divnstp .cl-bod-cntnt .cl-btn:hover {
-	background-color:#8D221C;
 	color:#FFFFFF;
+	background-color:#8D221C;
 	font-weight:normal;
 }
 
@@ -1941,14 +1958,8 @@ p {
 
 #divsophia #divbody .w3-row:nth-child(3) .cl-btn,
 #divguidance #divbody .w3-row:nth-child(3) .cl-btn {
-	border:2px solid #8D221C;
 	border-radius:20px;
-	padding:0.5em 2em;
-	font-family:Nunito;
-	font-weight:bold;
-	color:#8D221C;
 	margin-left:3em;
-	cursor:pointer;
 }
 
 #divsophia .cl-tbl-lst,
@@ -2100,7 +2111,10 @@ p {
 	/*line-height: 100px;*/
 }
 
-#divsophia #divbody .w3-row:nth-child(4) .cl-tbl-lst,
+#divsophia #divbody .w3-row:nth-child(4) .cl-tbl-lst {
+	padding-left:6em;
+}
+
 #divorg #divbody .w3-row:nth-child(2) .cl-tbl-lst {
 	padding-left:1em;
 }
@@ -2495,11 +2509,9 @@ p {
 	padding:1em 0em;
 }
 
-
 #divfooter {
 	width:100%;
 	overflow:hidden;
-	margin-top:1em;
 }
 
 #divfooter .column {
