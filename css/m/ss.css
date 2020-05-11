@@ -308,10 +308,10 @@
 #divnav .clnav a {
 	text-align:center;
 	text-decoration:none;
-	/*font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;*/
 	font-size:14px;
-	letter-spacing:0.5px;
 	color:#8D221C;
+	/*font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;*/
+	/*letter-spacing:0.5px;*/
 }
 
 #divnav .clnav li {
@@ -462,8 +462,17 @@
 
 #divnewslist #divfeature .column {
 	width:100%;
-	height:100%;
 	padding-top:0em;
+	color:#707070;
+}
+
+#divnewslist #divfeature .column:nth-child(2) {
+	padding:1.6em 1em 0em 1em;
+}
+
+#divnewslist #divfeature .right .w3-border-transparent {
+	margin-top:1em;
+	padding-bottom:2em;
 }
 
 #divdept .cl-div-cntnt {
