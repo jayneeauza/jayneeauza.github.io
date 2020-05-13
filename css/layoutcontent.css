@@ -1030,7 +1030,6 @@ p {
 
 #divnav li:hover li a:hover {
     background: #CCCCCC;
-    transition:0.5s;
 }
 
 #divnav .divright .cl-search {
@@ -1123,8 +1122,13 @@ p {
 	width:220px;
 	background-color:#fccf6a;
 	color:#FFFFFF;
-	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 4px 12px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
 	cursor:pointer;
+	transition:0.5s;
+}
+
+#divprog .column:hover {
+	box-shadow:none;
 }
 
 #divprog .overlay span {
@@ -1224,6 +1228,12 @@ p {
 
 #divnews .w3-row > .column {
 	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 4px 12px 0 rgba(0, 0, 0, 0.12);
+	transition:0.5s;
+}
+
+#divnews .w3-row > .column:hover {
+	cursor:pointer;
+	box-shadow:none;
 }
 
 #divnews .column .w3-row:nth-child(1) {
