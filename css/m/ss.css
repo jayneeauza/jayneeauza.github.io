@@ -328,6 +328,7 @@
 #divnav .clnav .cl-nav-item ul li {
 	margin:0;
 }
+
 .cl-m-arrw {
 	/*float:right;
 	margin-right:2em;
@@ -360,6 +361,7 @@
 
 #divindx #divupevent .w3-row:nth-child(1) {
 	margin-bottom:1em;
+	text-align:center;
 }
 
 #divindx #divupevent .w3-row:nth-child(1) .column {

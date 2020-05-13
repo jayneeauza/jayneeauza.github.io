@@ -57,6 +57,7 @@
 
 	#divnav ul li a:hover {
 	    background: #CCCCCC;
+	    transition:0.5s;
 	}
 
 	#divnav > ul li:hover {
@@ -80,18 +81,9 @@
 	    background: ;
 	}
 
-	#divnav li:hover li a:hover {
-	    background: #CCCCCC;
-	}
-
 	#divnav .clnav li ul li {
 	    border-top: 0;
 	    background: #FFFFFF;
-	}
-
-	#divnav .clnav li {
-		font-size:12px;
-	    /*font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;*/
 	}
 
 	#divnav ul ul ul {
@@ -109,10 +101,9 @@
 	    clear: both;
 	}
 
-
 	#divindx #divslide {
 		width:100%;
-		height:400px;
+		height:600px;
 		overflow:hidden;
 	}
 
@@ -132,6 +123,10 @@
 	#divvids .column {
 		display:inline-block;
 		margin:1em 1.5em 0em 1.5em;
+	}
+
+	#divupevent .w3-row:nth-child(1) {
+		text-align:center;
 	}
 
 	#divupevent .cl-event {
@@ -155,7 +150,13 @@
 	}
 
 	#divfeature {
-		padding:1em 6em;
+		padding:1em 6em 2.5em 6em;
+	}
+
+	#divnews .column {
+		display:inline-block;
+		width:20%;
+		margin:1em 1em 0em 2em;
 	}
 
 	#divnewslist #divnews {
@@ -345,6 +346,10 @@
 		padding-left:6em;
 	}
 
+	#divprog .w3-row {
+		padding:0.5em 0em;
+	}
+
 	.cl-ico-ldcu {
 	    width: 346px;
 	    height: 86px;
@@ -405,6 +410,7 @@
 
 	#divnav ul li a:hover {
 	    background: #CCCCCC;
+	    transition:0.5s;
 	}
 
 	#divnav > ul li:hover {
@@ -428,18 +434,9 @@
 	    background: ;
 	}
 
-	#divnav li:hover li a:hover {
-	    background: #CCCCCC;
-	}
-
 	#divnav .clnav li ul li {
 	    border-top: 0;
 	    background: #FFFFFF;
-	}
-
-	#divnav .clnav li {
-		font-size:12px;
-	    /*font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;*/
 	}
 
 	#divnav ul ul ul {
@@ -465,7 +462,16 @@
 
 	#divvids .column {
 		display:inline-block;
-		margin:1em 1.5em 0em 1.5em;
+		margin:1em 1em 0em 1em;
+	}
+
+	#divupevent .w3-row:nth-child(1) .column:nth-child(1) {
+		padding-left:6em;
+	}
+
+	#divupevent .w3-row:nth-child(1) .column:nth-child(2) {
+		text-align:right;
+		padding-right:9em;
 	}
 
 	#divupevent .cl-event {
@@ -473,7 +479,7 @@
 	}
 
 	#divupevent .cl-event .cl-evnt-cntnt {
-		width:300px;
+		width:400px;
 		display:inline-block;
 		color:#8D221C;
 	}
@@ -483,7 +489,7 @@
 	}
 
 	#divfeature {
-		padding:1em 6em;
+		padding:1em 6em 2.5em 6em;
 	}
 
 	#divfeature .right {
@@ -503,6 +509,12 @@
 		padding:2.5em 1em 0em 1em;
 		text-align:left;
 		color:#8D221C;
+	}
+
+	#divnews .column {
+		display:inline-block;
+		width:24%;
+		margin:1em 1em 0em 2em;
 	}
 
 	#divnewslist #divnews {
@@ -759,6 +771,7 @@
 
 	#divnav ul li a:hover {
 	    background: #CCCCCC;
+	    transition:0.5s;
 	}
 
 	#divnav > ul li:hover {
@@ -782,18 +795,9 @@
 	    background: ;
 	}
 
-	#divnav li:hover li a:hover {
-	    background: #CCCCCC;
-	}
-
 	#divnav .clnav li ul li {
 	    border-top: 0;
 	    background: #FFFFFF;
-	}
-
-	#divnav .clnav li {
-		font-size:12px;
-	    /*font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;*/
 	}
 
 	#divnav ul ul ul {
@@ -842,6 +846,10 @@
 	#divvids .column {
 		display:inline-block;
 		margin:0;
+	}
+
+	#divupevent .w3-row:nth-child(1) {
+		text-align:center;
 	}
 
 	#divupevent .cl-event {
@@ -919,18 +927,19 @@
 		margin-left:0.5em;
 	}
 
+	#divnews .column {
+		display:inline-block;
+		width:26%;
+		margin:1em 1em 0em 1em;
+	}
+
 	#divnewspage .cl-heading {
 		padding-left:12.5em;
 		font-weight:bold;
 		font-family:Nunito;
 	}
 
-	/*#divnewspage .cl-div-bod {
-		width:900px;
-	}*/
-
 	#divnewspage .cl-par {
-		/*padding-left:9em;*/
 		margin-top:1em;
 	}
 
@@ -1002,7 +1011,12 @@ p {
 
 #divnav .clnav li {
 	font-family:Montserrat;
+	font-size:12px;
 	letter-spacing:0.4px;
+}
+
+#divnav .clnav .cl-nav-item .cl-nav-item-1 a {
+	font-size:11px;
 }
 
 #divnav .divright .w3-row:nth-child(1) {
@@ -1012,6 +1026,11 @@ p {
 #divnav .divright .w3-row:nth-child(1) .column {
 	float:left;
 	width:50%;
+}
+
+#divnav li:hover li a:hover {
+    background: #CCCCCC;
+    transition:0.5s;
 }
 
 #divnav .divright .cl-search {
@@ -1039,6 +1058,7 @@ p {
 #divindx .cl-btn1:hover {
 	color:#FFFFFF;
 	background-color:#8D221C;
+	transition:0.5s;
 }
 
 #divindx #divnav .w3-right div {
@@ -1047,7 +1067,8 @@ p {
 
 #divnav2 {
 	width:100%;
-	margin-top:1em;
+	/*margin-top:1em;*/
+	padding:2em 0em 1em 0em;
 }
 
 #divnav2 .column {
@@ -1079,7 +1100,7 @@ p {
 }
 
 #divprog {
-	padding:1em 1.5em 0em 1.5em;
+	padding:2em 1.5em 1.5em 1.5em;
 }
 
 #divprog .w3-row span {
@@ -1096,14 +1117,14 @@ p {
 }
 
 #divprog .column {
-	/*border:1px solid black;*/
 	display:inline-block;
-	/*margin:0em 2em 0em 2em;*/
-	margin-top:1em;
+	margin:2em 0em 0em 0.5em;
 	padding:4em 1em 4em 1em;
 	width:220px;
 	background-color:#fccf6a;
 	color:#FFFFFF;
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 4px 12px 0 rgba(0, 0, 0, 0.12);
+	cursor:pointer;
 }
 
 #divprog .overlay span {
@@ -1121,7 +1142,6 @@ p {
 }
 
 #divupevent .w3-row:nth-child(1) .column {
-	/*border:1px solid black;*/
 	width:50%;
 	float:left;
 }
@@ -1198,20 +1218,48 @@ p {
 	font-weight:bold;
 }
 
-#divnews .column {
-	display:inline-block;
-	width:250px;
-	margin:1em 1em 0em 1em;
+#divnews {
+	padding:1em 0em 1em 0em;
 }
 
-#divnews span {
+#divnews .w3-row > .column {
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 4px 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+#divnews .column .w3-row:nth-child(1) {
+	height:200px;
+	overflow:hidden;
+}
+
+#divnews .column .w3-row:nth-child(2) {
+	text-align:left;
+	height:220px;
+	padding:0em 1em;
+	text-align:justify;
+}
+#divnews .column .w3-row:nth-child(3) {
+	border-top:1px solid #DCDCDC;
+	padding:1.5em 1em 1.5em 1em;
+	text-align:left;
 	font-family:Nunito;
+	font-size:12px;
+	color:#888;
 }
 
 #divnews p {
-	text-align:left;
 	font-family:Montserrat;
-	font-size:12px;
+	font-size:14px;
+}
+
+#divnews .column h3 {
+	text-align:left;
+}
+
+#divnews .column h3:hover,
+#divnews .cl-more:hover {
+	cursor:pointer;
+	color:#8D221C;
+	transition:0.5s;
 }
 
 #divnews .cl-div-img {
@@ -1222,6 +1270,15 @@ p {
 
 #divnews .cl-div-img img {
 	width:100%;
+}
+
+#divnews .cl-more {
+	font-family:Nunito;
+	font-size:12px;
+	letter-spacing:0.2px;
+	font-weight:bold;
+	padding-top:1em;
+	display:block;
 }
 
 #divnewslist .cl-nxt-prev {
@@ -1306,6 +1363,7 @@ p {
 
 #divlink {
 	margin-top:1em;
+	padding-top:1em;
 }
 
 #divlink .column {
