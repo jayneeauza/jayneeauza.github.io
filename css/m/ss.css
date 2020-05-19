@@ -480,8 +480,19 @@
 #divdept .cl-div-cntnt {
 	width:100%;
 	margin-left:0em;
+	text-align:justify;
 }
 
+#divdept #divdeptnews {
+	margin-top:1em;
+	padding:0;
+}
+
+#divdept #divdeptnews .column .w3-row:nth-child(2) {
+	height:100%;
+}
+
+#divdept #divdeptnews .column,
 #divdept .cl-div-cntnt .column {
 	width:100%;
 }
@@ -499,7 +510,7 @@
 	text-align:center;
 }
 
-#divdept #divnews i {
+#divdept #divdeptnews i {
 	display:none;
 }
 
