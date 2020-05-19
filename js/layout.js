@@ -79,7 +79,9 @@ $(document).ready(function() {
     	alert("ads");
     });
 
-  
+    $(".cl-drpdwn").click(function() {
+    	$(this).children("div").slideToggle();
+    });
 
 	showDivs(slideIndex);
 	showPage(sIndex);

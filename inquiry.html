@@ -19,7 +19,38 @@
 		<div id="divnav" class="w3-row w3-top" ng-include="'nav.html'">
 		</div>
 		<div class="cl-bod-cntnt w3-row">
-			<div id="divbody">
+			<div id="divbody" class="w3-row">
+				<div class="column left">
+					<h2 class="cl-bld cl-rd w3-center">How can we help you?</h2>
+					<select class="w3-input">
+						<option value="">Category</option>
+						<option value="">Category</option>
+						<option value="">Category</option>
+					</select>
+					<input type="text" class="w3-input" placeholder="Email Address">
+					<input type="text" class="w3-input" placeholder="Your Name">
+					<textarea class="w3-input" rows="10" placeholder="Your Question"></textarea>
+					<button class="w3-right cl-btn">Submit</button>
+				</div>
+				<div class="column right">
+					<h5>Related Searches</h5>
+					<div class="w3-row">
+						<div class="w3-row cl-drpdwn">
+							<span>Sample Question <i class="cl-arr cl-arr-dwn w3-right"></i></span>
+							<div class="w3-row cl-drpdwn-cntnt">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+								<span class="cl-more">Read more...</span>
+							</div>
+						</div>
+						<div class="w3-row cl-drpdwn">
+							<span>Sample Question <i class="cl-arr cl-arr-dwn w3-right"></i></span>
+							<div class="w3-row cl-drpdwn-cntnt">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+								<span class="cl-more">Read more...</span>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div id="divfooter" class="w3-row" ng-include="'footer.html'">
 			</div>
