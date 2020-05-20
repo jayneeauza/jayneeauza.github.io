@@ -83,6 +83,15 @@ $(document).ready(function() {
     	$(this).children("div").slideToggle();
     });
 
+    $("#divscholar #sde-nav li").click(function() {
+    	var navid = $(this).attr('id');
+ 		$(this).addClass("cl-slctd");
+    	$("#divscholar ul li").not("#" + navid).removeClass("cl-slctd");
+    	$("#divscholar .cl-div").not("." + navid).hide();
+    	$("." + navid).fadeIn("fast");
+    	$("#divscholar #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt").css("display", "block");
+    });
+
 	showDivs(slideIndex);
 	showPage(sIndex);
 
