@@ -70,6 +70,34 @@
 	#divlinkages #divbody .w3-row:nth-child(2) .column {
 		width:100%;
 	}
+
+	#divcalendar #divbody .col-2 {
+		width:360px;
+		margin:0 auto;
+	}
+
+	#divcalendar #divbody .col-2 ul li div {
+		text-align:center;
+		width:45px;
+	}
+
+	#divcalendar #divbody .col-2 .cl-days li {
+		color:#8D221C;
+		font-family:Montserrat;
+		font-weight:bold;
+		font-size:12px;
+		margin-left:0.4em;
+	}
+
+	#divcalendar #divbody .col-2 .cl-dates li {
+		font-family:Montserrat;
+		font-weight:bold;
+		color:#707070;
+		font-size:12px;
+		margin-top:1.5em;
+		cursor:pointer;
+		margin-left:0.4em;
+	}
 }
 
 @media only screen and (min-width:600px) {
@@ -192,6 +220,38 @@
 	#divlinkages #divbody .w3-row:nth-child(2) .column {
 		width:100%;
 	}
+
+	#divcalendar #divbody .col-2 {
+		width:600px;
+		margin:0 auto;
+	}
+
+	#divcalendar #divbody .col-2 .cl-dates,
+	#divcalendar #divbody .col-2 .cl-days {
+		padding:0em 2em;
+	}
+
+	#divcalendar #divbody .col-2 ul li div {
+		text-align:center;
+		width:68px;
+	}
+
+	#divcalendar #divbody .col-2 .cl-days li {
+		color:#8D221C;
+		font-family:Montserrat;
+		font-weight:bold;
+		font-size:18px;
+		margin-left:0.4em;
+	}
+	#divcalendar #divbody .col-2 .cl-dates li {
+		font-family:Montserrat;
+		font-weight:bold;
+		color:#707070;
+		font-size:18px;
+		margin-top:1.5em;
+		cursor:pointer;
+		margin-left:0.4em;
+	}
 }
 
 @media only screen and (min-width:768px) {
@@ -260,6 +320,38 @@
 
 	#divlinkages #divbody .w3-row:nth-child(2) .column {
 		width:50%;
+	}
+
+	#divcalendar #divbody .col-2 {
+		width:768px;
+		margin:0 auto;
+	}
+
+	#divcalendar #divbody .col-2 .cl-dates,
+	#divcalendar #divbody .col-2 .cl-days {
+		padding:0em 2em;
+	}
+
+	#divcalendar #divbody .col-2 ul li div {
+		text-align:center;
+		width:88px;
+	}
+
+	#divcalendar #divbody .col-2 .cl-days li {
+		color:#8D221C;
+		font-family:Montserrat;
+		font-weight:bold;
+		font-size:18px;
+		margin-left:0.4em;
+	}
+	#divcalendar #divbody .col-2 .cl-dates li {
+		font-family:Montserrat;
+		font-weight:bold;
+		color:#707070;
+		font-size:18px;
+		margin-top:1.5em;
+		cursor:pointer;
+		margin-left:0.4em;
 	}
 }
 
@@ -689,6 +781,7 @@
 	padding:0;
 }
 
+#divcalendar #divbody .col-1,
 #divfaq #divbody .w3-row .column,
 #divregistrar #divbody .right .cl-div .cl-drpdwn-cntnt .left,
 #divfinance #divbody .right .cl-div .cl-drpdwn-cntnt .left,
@@ -909,6 +1002,28 @@
 }
 
 #divfaq #divbody .cl-clmn-3 {
+	padding:0;
+}
+
+#divcalendar #divbody #idday {
+	font-family:Montserrat;
+	font-size:50px;
+	color:#D1A6A4;
+	margin-left:1em;
+}
+
+#divcalendar #divbody .col-2 {
+	height:100%;
+}
+
+#divcalendar #divbody .col-2 .cl-days {
+	margin-top:2em;
+	margin-left:0em;
+	display:flex;
+}
+
+#divcalendar #divbody .col-2 ul {
+	margin:0;
 	padding:0;
 }
 
