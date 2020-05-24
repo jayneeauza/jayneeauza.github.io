@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="icons/ico-liceo.png" />
+	<title>Liceo de Cagayan University</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/scroll.css">
+    <link rel="stylesheet" type="text/css" href="css/layoutcontent.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:1022px) and (max-width:1280px)" href="css/layoutcontent.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:1021px)" href="css/m/ss.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/layout.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+</head>
+<body>
+	<div id="divmemo" ng-app="">
+		<div id="divnav" class="w3-row w3-top" ng-include="'nav.html'">
+		</div>
+		<div class="cl-bod-cntnt w3-row">
+			<div id="divbody" class="w3-row">
+				<div id="divbody" class="w3-row">
+	        		<div class="w3-row cl-brdr">
+		        		<h3 class="cl-clr-red w3-left">MEMORANDUM</h3>
+		        		<!-- <input type="text" class="w3-right" placeholder="Search..."> -->
+	        		</div>
+	        		<div class="w3-row cl-mem-ltst">
+	        			<div class="column cl-clmn-1">
+	        				<img src="files/memo/memo-1.png">
+	        			</div>
+	        			<div class="column cl-clmn-2">
+	        				<h5 class="cl-bld">Guidelines for Modified Campus Work Scheme</h5>
+	        				<img src="icons/ico-calendar.png"><span>May 25, 2020</span>
+	        			</div>
+	        			<div class="column cl-clmn-3">
+	        				<button class="cl-btn w3-right cl-shw-mod">Details</button>
+	        			</div>
+	        		</div>
+	        		<div id="" class="w3-row w3-center">
+						<ul id="nav-lst">
+						 	<li id="cl-all" class="cl-slctd">All</li>
+						 	<li id="cl-ltst">Latest</li>
+						 	<li id="cl-archve">Archive</li>
+						 </ul>
+					</div>
+					<div class="w3-row cl-all cl-mem-lst"> <!-- ALL -->
+						<div class="w3-row">
+							<div class="column cl-clmn-1">
+		        				<img src="files/memo/memo-1.png">
+		        			</div>
+		        			<div class="column cl-clmn-2">
+		        				<h5 class="cl-bld">Guidelines for Modified Campus Work Scheme</h5>
+		        				<img src="icons/ico-calendar.png"><span>May 25, 2020</span>
+		        			</div>
+		        			<div class="column cl-clmn-3">
+		        				<div class="column w3-right cl-shw-mod">
+		        					<img src="icons/ico-zoom1.png" width="20">
+		        				</div>
+		        			</div>
+						</div>
+						<div class="w3-row">
+							<div class="column cl-clmn-1">
+		        				<img src="files/memo/memo-1.png">
+		        			</div>
+		        			<div class="column cl-clmn-2">
+		        				<h5 class="cl-bld">Guidelines for Modified Campus Work Scheme</h5>
+		        				<img src="icons/ico-calendar.png"><span>May 25, 2020</span>
+		        			</div>
+		        			<div class="column cl-clmn-3">
+		        				<div class="column w3-right">
+		        					<img src="icons/ico-zoom1.png" width="20">
+		        				</div>
+		        			</div>
+						</div>
+					</div>
+					<div class="w3-row cl-ltst cl-mem-lst hdn"> <!-- LATEST --> 
+						<div class="w3-row">
+							<div class="column cl-clmn-1">
+		        				<img src="files/memo/memo-1.png">
+		        			</div>
+		        			<div class="column cl-clmn-2">
+		        				<h5 class="cl-bld">Guidelines for Modified Campus Work Scheme</h5>
+		        				<img src="icons/ico-calendar.png"><span>May 25, 2020</span>
+		        			</div>
+		        			<div class="column cl-clmn-3">
+		        				<div class="column w3-right">
+		        					<img src="icons/ico-zoom1.png" width="20">
+		        				</div>
+		        			</div>
+						</div>
+					</div>
+					<div class="w3-row cl-archve cl-mem-lst hdn"> <!-- ARCHIVE --> 
+						<div class="w3-row">
+							<div class="column cl-clmn-1">
+		        				<img src="files/memo/memo-1.png">
+		        			</div>
+		        			<div class="column cl-clmn-2">
+		        				<h5 class="cl-bld">Guidelines for Modified Campus Work Scheme</h5>
+		        				<img src="icons/ico-calendar.png"><span>May 25, 2020</span>
+		        			</div>
+		        			<div class="column cl-clmn-3">
+		        				<div class="column w3-right">
+		        					<img src="icons/ico-zoom1.png" width="20">
+		        				</div>
+		        			</div>
+						</div>
+						<div class="w3-row">
+							<div class="column cl-clmn-1">
+		        				<img src="files/memo/memo-1.png">
+		        			</div>
+		        			<div class="column cl-clmn-2">
+		        				<h5 class="cl-bld">Guidelines for Modified Campus Work Scheme</h5>
+		        				<img src="icons/ico-calendar.png"><span>May 25, 2020</span>
+		        			</div>
+		        			<div class="column cl-clmn-3">
+		        				<div class="column w3-right">
+		        					<img src="icons/ico-zoom1.png" width="20">
+		        				</div>
+		        			</div>
+						</div>
+					</div>
+					<div id="divmodal" class="w3-modal">
+						<div class="w3-modal-content">
+							<header class="w3-container">
+								<span class="w3-button w3-display-topright cl-close-modal">&times;</span>
+								<h2>DOCUMENT PREVIEW</h2>
+							</header>
+							<div class="w3-container">
+								<!-- MEMO FILE HERE -->
+							</div>
+							<footer class="w3-container">
+								<p>MEMO LINK</p>
+							</footer>
+						</div>
+					</div>
+	        	</div>
+			</div>
+			<div id="divfooter" class="w3-row" ng-include="'footer.html'">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

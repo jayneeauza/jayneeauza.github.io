@@ -549,6 +549,8 @@
 #divevent,
 #divevntlst,
 #divdeptlist,
+#divregistrar,
+#divfinance,
 #divscholar,
 #divguidance,
 #divsophia,
@@ -605,6 +607,8 @@
 	padding:0em 1em;
 }
 
+#divfinance #divbody .cl-bld,
+#divregistrar #divbody .cl-bld,
 #divscholar #divbody .cl-bld,
 #divinquiry #divbody .cl-bld,
 #divevntlst #divbody .cl-bld,
@@ -623,6 +627,8 @@
 	font-weight:bold;
 }
 
+#divfinance #divbody .cl-btn,
+#divregistrar #divbody .cl-btn,
 #divscholar #divbody .cl-btn,
 #divinquiry #divbody .cl-btn,
 #divnstp #divbody .w3-row:nth-child(2) .cl-btn,
@@ -681,7 +687,11 @@
 	padding:0;
 }
 
+#divregistrar #divbody .right .cl-div .cl-drpdwn-cntnt .left,
+#divfinance #divbody .right .cl-div .cl-drpdwn-cntnt .left,
 #divscholar #divbody .right .cl-div .cl-drpdwn-cntnt .left,
+#divfinance #divbody .w3-row .column,
+#divregistrar #divbody .w3-row .column,
 #divscholar #divbody .w3-row .column,
 #divnstp #divbody .w3-row:nth-child(5) .column,
 #divnstp #divbody .w3-row:nth-child(4) .column,
@@ -878,10 +888,14 @@
 	padding:0em;
 }
 
+#divfinance #divbody .left ul,
+#divregistrar #divbody .left ul,
 #divscholar #divbody .left ul {
 	margin:0.5em 1em 0em 1em;
 }
 
+#divfinance #divbody > .w3-row:nth-child(1),
+#divregistrar #divbody > .w3-row:nth-child(1),
 #divscholar #divbody > .w3-row:nth-child(1) {
 	border-bottom:1px solid #DCDCDC;
 	margin-bottom:1em;

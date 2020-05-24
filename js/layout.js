@@ -92,6 +92,33 @@ $(document).ready(function() {
     	$("#divscholar #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt").css("display", "block");
     });
 
+    $("#divregistrar #sde-nav li").click(function() {
+    	var navid = $(this).attr('id');
+ 		$(this).addClass("cl-slctd");
+    	$("#divregistrar ul li").not("#" + navid).removeClass("cl-slctd");
+    	$("#divregistrar .cl-div").not("." + navid).hide();
+    	$("." + navid).fadeIn("fast");
+    	$("#divregistrar #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt").css("display", "block");
+    });
+
+    $("#divfinance #sde-nav li").click(function() {
+    	var navid = $(this).attr('id');
+ 		$(this).addClass("cl-slctd");
+    	$("#divfinance ul li").not("#" + navid).removeClass("cl-slctd");
+    	$("#divfinance .cl-div").not("." + navid).hide();
+    	$("." + navid).fadeIn("fast");
+    	$("#divfinance #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt").css("display", "block");
+    });
+
+    $("#divmemo #nav-lst li").click(function() {
+        var navid = $(this).attr('id');
+        $(this).addClass("cl-slctd");
+        $("#divmemo ul li").not("#" + navid).removeClass("cl-slctd");
+        $("#divmemo .cl-mem-lst").not("." + navid).hide();
+        $("." + navid).fadeIn("fast");
+        $("#divdemo #divbody .cl-mem-lst").css("display", "block");
+    });
+
 	showDivs(slideIndex);
 	showPage(sIndex);
 

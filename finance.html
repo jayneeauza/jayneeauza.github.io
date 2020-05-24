@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="icons/ico-liceo.png" />
+	<title>Liceo de Cagayan University</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/scroll.css">
+    <link rel="stylesheet" type="text/css" href="css/layoutcontent.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:1022px) and (max-width:1280px)" href="css/layoutcontent.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:1021px)" href="css/m/ss.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/layout.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+</head>
+<body>
+	<div id="divfinance" ng-app="">
+		<div id="divnav" class="w3-row w3-top" ng-include="'nav.html'">
+		</div>
+		<div class="cl-bod-cntnt w3-row">
+			<div id="divbody" class="w3-row">
+				<div class="w3-row hdn">
+					<h4 class="cl-bld cl-rd">Finance</h4>
+				</div>
+				<div class="w3-row">
+					<div class="column left">
+						 <ul id="sde-nav">
+						 	<li id="cl-div-3" class="cl-slctd">About</li>
+						 	<li id="cl-div-2">Estimated School Fees</li>
+						 	<li id="cl-div-1">Payment Guidelines</li>
+						 	<li id="cl-div-4">Payment Center</li>
+						 	<li id="cl-div-5">Family Discount</li>
+						 	<li id="cl-div-7">Refund Policy</li>
+						 	<li id="cl-div-6">Contact Us</li>
+						 </ul>
+					</div>
+					<div class="column right">
+						<div class="w3-row mhdn">
+							<h4 class="cl-bld cl-rd">Finance</h4>
+						</div>
+						<div class="w3-row cl-div cl-div-3"> <!-- ABOUT -->
+							<p>In cases where a student enjoys academic and non- academic scholarship grants, the student shall avail of the grant that offers bigger benefit, not both. Scholarships offered by outside organizations maybe availed of in addition to either academic or non-academic scholarship subject to the rules and limitations of such outside grants.</p>
+	                    	<p>The screening of the prospective scholars under this category shall be done one week before the enrollment period or earlier but not later than one week before the start of regular classes.</p>
+	                    	<p>The Office of the Student-Personnel Services determines guidelines for the admission, retention, and disqualification of scholars under this category.</p>
+						</div>
+						<div class="w3-row cl-div cl-div-2 hdn"> <!-- ESTIMATED SCHOOL FEES -->
+							<div class="w3-row cl-drpdwn"> <!-- BASIC EDUCATION -->
+								<span>BASIC EDUCATION <i class="cl-arr cl-arr-dwn w3-right"></i></span>
+								<div class="w3-row cl-drpdwn-cntnt">
+									<h5 class="cl-bld">PRESCHOOL</h5>
+									<table class="w3-table">
+										<thead>
+											<th></th>
+											<th>TUITION</th>
+											<th>SCHOOL FEES</th>
+											<th>TOTAL</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Playground</td>
+												<td>36,687.00</td>
+												<td>13,053.00</td>
+												<td>49,740.00</td>
+											</tr>
+											<tr>
+												<td>Nursery</td>
+												<td>36,687.00</td>
+												<td>13,053.00</td>
+												<td>49,740.00</td>
+											</tr>
+											<tr>
+												<td>Kinder I</td>
+												<td>36,739.00</td>
+												<td>13,621.00</td>
+												<td>50,360.00</td>
+											</tr>
+											<tr>
+												<td>Kinder II</td>
+												<td>36,739.00</td>
+												<td>13,621.00</td>
+												<td>50,360.00</td>
+											</tr>
+										</tbody>
+									</table>
+									<h5 class="cl-bld">ELEMENTARY SCHOOL</h5>
+									<table class="w3-table">
+										<thead>
+											<th></th>
+											<th>TUITION</th>
+											<th>SCHOOL FEES</th>
+											<th>TOTAL</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Grade 1</td>
+												<td>33,200.00</td>
+												<td>17,024.00</td>
+												<td>50,224.00</td>
+											</tr>
+											<tr>
+												<td>Grade 2</td>
+												<td>32,928.00</td>
+												<td>16,671.00</td>
+												<td>49,599.00</td>
+											</tr>
+											<tr>
+												<td>Grade 3</td>
+												<td>32,928.00</td>
+												<td>16,884.00</td>
+												<td>49,812.00</td>
+											</tr>
+											<tr>
+												<td>Grade 4</td>
+												<td>32,091.00</td>
+												<td>17,690.00</td>
+												<td>49,781.00</td>
+											</tr>
+											<tr>
+												<td>Grade 5</td>
+												<td>32,091.00</td>
+												<td>17,839.00</td>
+												<td>49,930.00</td>
+											</tr>
+											<tr>
+												<td>Grade 6</td>
+												<td>30,916.00</td>
+												<td>19,463.00</td>
+												<td>50,379.00</td>
+											</tr>
+										</tbody>
+									</table>
+									<h5 class="cl-bld">JUNIOR HIGH SCHOOL</h5>
+									<table class="w3-table">
+										<thead>
+											<th></th>
+											<th>TUITION</th>
+											<th>SCHOOL FEES</th>
+											<th>TOTAL</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Grade 7</td>
+												<td>29,722.00</td>
+												<td>21,607.00</td>
+												<td>51,329.00</td>
+											</tr>
+											<tr>
+												<td>Grade 8</td>
+												<td>29,818.00</td>
+												<td>21,461.00</td>
+												<td>51,279.00</td>
+											</tr>
+											<tr>
+												<td>Grade 9</td>
+												<td>29,818.00</td>
+												<td>21,418.00</td>
+												<td>51,236.00</td>
+											</tr>
+											<tr>
+												<td>Grade 10</td>
+												<td>29,818.00</td>
+												<td>22,120.00</td>
+												<td>51,938.00</td>
+											</tr>
+										</tbody>
+									</table>
+									<h5 class="cl-bld">SENIOR HIGH SCHOOL</h5>
+									<table class="w3-table">
+										<thead>
+											<th></th>
+											<th>TUITION</th>
+											<th>SCHOOL FEES</th>
+											<th>TOTAL</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Grade 11</td>
+												<td>49,280.00</td>
+												<td>10,958.00</td>
+												<td>60,238.00</td>
+											</tr>
+											<tr>
+												<td>Grade 12</td>
+												<td>49,280.00</td>
+												<td>10,958.00</td>
+												<td>60,238.00</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="w3-row cl-drpdwn"> <!-- COLLEGE -->
+								<span>COLLEGE <i class="cl-arr cl-arr-dwn w3-right"></i></span>
+								<div class="w3-row cl-drpdwn-cntnt">
+									<h5 class="cl-bld">HEALTH-RELATED COURSES</h5>
+									<table class="w3-table">
+										<thead>
+											<th></th>
+											<th>PER UNIT</th>
+											<th>MISCELLANEOUS</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>BS Medical Laboratory Science</td>
+												<td>890.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BS Nursing</td>
+												<td>994.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BS Pharmacy</td>
+												<td>890.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BS Physical Therapy</td>
+												<td>891.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BS Occupational Therapy</td>
+												<td>891.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BS Radiologic Technology</td>
+											</tr>
+											<tr>
+												<td class="w3-right">1st to 2nd Year<br>3rd to 4th Year</td>
+												<td>885.00<br>925.00</td>
+												<td>8,370.00<br>8,370.00</td>
+											</tr>
+										</tbody>
+									</table>
+									<h5 class="cl-bld">ARTS AND SCIENCES</h5>
+									<table class="w3-table">
+										<thead>
+											<th></th>
+											<th>PER UNIT</th>
+											<th>MISCELLANEOUS</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>BA Communication</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BA Economics</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BA Political Science</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BA International Studies</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BA Literature & Performing Arts</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BA Psychology</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BA Biology</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>Bachelor of Library & Information Science</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+										</tbody>
+									</table>
+									<h5 class="cl-bld">BUSINESS AND ACCOUNTANCY</h5>
+									<table class="w3-table">
+										<thead>
+											<th></th>
+											<th>PER UNIT</th>
+											<th>MISCELLANEOUS</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>BS Accountancy</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BS Accounting Technology</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BSBA - Financial Management</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BSBA - Marketing Management</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BSBA - Business Management</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BSBA - Management Accounting</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BSBA - HRDM</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+										</tbody>
+									</table>
+									<h5 class="cl-bld">HOSPITALITY MANAGEMENT</h5>
+									<table class="w3-table">
+										<thead>
+											<th></th>
+											<th>PER UNIT</th>
+											<th>MISCELLANEOUS</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>BS Tourism</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BS Hotel, Restaurant & Institution Mgmt.</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BS HRIM - Health and Wellness</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>Associate in Hotel & Restaurant Mgmt.</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+										</tbody>
+									</table>
+									<h5 class="cl-bld">EDUCATION</h5>
+									<table class="w3-table">
+										<thead>
+											<th></th>
+											<th>PER UNIT</th>
+											<th>MISCELLANEOUS</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>BSEd - English</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BSEd - MAPEH</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BSEd - Mathematics</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BSEd - General Education</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BSEd - Special Education</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BEED - Early Childhood Education</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>Bachelor of Physical Education</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+										</tbody>
+									</table>
+									<h5 class="cl-bld">ENGINEERING</h5>
+									<table class="w3-table">
+										<thead>
+											<th></th>
+											<th>PER UNIT</th>
+											<th>MISCELLANEOUS</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>BS Civil Engineering</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BS Electrical Engineering</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BS Electronics Engineering</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BS Computer Engineering</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>BS Industrial Engineering</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+										</tbody>
+									</table>
+									<h5 class="cl-bld">INFORMATION TECHNOLOGY</h5>
+									<table class="w3-table">
+										<thead>
+											<th></th>
+											<th>PER UNIT</th>
+											<th>MISCELLANEOUS</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>BS Information Technology</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>Associate in Computer Technology</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>(Computer Subject)</td>
+												<td>2,000.00</td>
+												<td>8,370.00</td>
+											</tr>
+										</tbody>
+									</table>
+									<h5 class="cl-bld">CONSERVATORY OF MUSIC</h5>
+									<table class="w3-table">
+										<thead>
+											<th></th>
+											<th>PER UNIT</th>
+											<th>MISCELLANEOUS</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Bachelor of Music - Performance</td>
+												<td>890.00</td>
+												<td>8,370.00</td>
+											</tr>
+											<tr>
+												<td>Bachelor of Music - Pedagogy</td>
+												<td>890.00</td>
+												<td>8,370.00</td>
+											</tr>
+										</tbody>
+									</table>
+									<h5 class="cl-bld">CRIMINOLOGY</h5>
+									<table class="w3-table">
+										<thead>
+											<th></th>
+											<th>PER UNIT</th>
+											<th>MISCELLANEOUS</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>BS Criminology</td>
+												<td>885.00</td>
+												<td>8,370.00</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="w3-row cl-drpdwn"> <!-- GRADUATE DEGREES -->
+								<span>GRADUATE DEGREES <i class="cl-arr cl-arr-dwn w3-right"></i></span>
+								<div class="w3-row cl-drpdwn-cntnt">
+									<table class="w3-table">										
+										<tr>
+											<td></td>
+											<td class="cl-bld">PER UNIT</td>
+											<td class="cl-bld">MISCELLANEOUS</td>
+										</tr>
+										<tr>
+											<td>MM - Management Engineering</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MM - Environmental Planning and Mgmt.</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MM - Human Resource Management</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MM - Business Management</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MM - Public Management</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MM - Information Technology Mgmt.</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MM - Instructional Systems Mgmt.</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>Master of Arts in Nursing</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MM - Nursing Administration Service</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MM - Medical Surgical Nursing</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MM - Maternal & Child Nursing</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MM - Community Health Nursing</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MM - Psychiatric Nursing</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MAEd - Early Childhood Education</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MAEd - Special Education</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MAEd - Mathematics Teaching</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MAEd - English Language Teaching</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MAEd - Sports & Physical Education</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MAEd - General Science Teaching</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MAEd - Social Sciences Teaching</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MAEd - Health Personnel Education</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+										<tr>
+											<td>MAEd - Organization & Management</td>
+											<td>1,425.00</td>
+											<td>8,349.00</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<div class="w3-row cl-drpdwn"> <!-- POST GRADUATE DEGREES -->
+								<span>POST GRADUATE DEGREES <i class="cl-arr cl-arr-dwn w3-right"></i></span>
+								<div class="w3-row cl-drpdwn-cntnt">
+									<table class="w3-table">
+										<tr>
+											<td></td>
+											<td class="cl-bld">PER UNIT</td>
+											<td class="cl-bld">MISCELLANEOUS</td>
+										</tr>
+										<tr>
+											<td>Doctor of Education</td>
+											<td>1,490.00</td>
+											<td>8,233.00</td>
+										</tr>
+										<tr>
+											<td>DM - Leadership and Organization</td>
+											<td>1,490.00</td>
+											<td>8,233.00</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<div class="w3-row cl-drpdwn"> <!-- LAW -->
+								<span>LAW <i class="cl-arr cl-arr-dwn w3-right"></i></span>
+								<div class="w3-row cl-drpdwn-cntnt">
+									<table class="w3-table">
+										<tr>
+											<td></td>
+											<td class="cl-bld">PER UNIT</td>
+											<td class="cl-bld">MISCELLANEOUS</td>
+										</tr>
+										<tr>
+											<td>Bachelor of Laws</td>
+											<td>1,425.00</td>
+											<td>8,332.00</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<div class="w3-row cl-drpdwn"> <!-- MEDICINE -->
+								<span>MEDICINE <i class="cl-arr cl-arr-dwn w3-right"></i></span>
+								<div class="w3-row cl-drpdwn-cntnt">
+									<table class="w3-table">
+										<tr>
+											<td></td>
+											<td class="cl-bld"></td>
+											<td class="cl-bld"></td>
+										</tr>
+										<tr>
+											<td>1st Year</td>
+											<td>79,275.00</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>2nd Year</td>
+											<td>78,537.00</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>3rd Year</td>
+											<td>76,507.00</td>
+											<td></td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="w3-row cl-div cl-div-1 hdn"> <!-- PAYMENT GUIDELINES -->
+							<div class="w3-row cl-drpdwn"> <!-- DOWNPAYMENT -->
+								<span>DOWNPAYMENT <i class="cl-arr cl-arr-dwn w3-right"></i></span>
+								<div class="w3-row cl-drpdwn-cntnt">
+									<i>** No data yet</i>
+								</div>
+							</div>
+							<div class="w3-row cl-drpdwn"> <!-- ASSESMENT & BILLING -->
+								<span>ASSESMENT & BILLING <i class="cl-arr cl-arr-dwn w3-right"></i></span>
+								<div class="w3-row cl-drpdwn-cntnt">
+									<i>** No data yet</i>
+								</div>
+							</div>
+							<div class="w3-row cl-drpdwn"> <!-- PAYMENT PROCESSING -->
+								<span>PAYMENT PROCESSING <i class="cl-arr cl-arr-dwn w3-right"></i></span>
+								<div class="w3-row cl-drpdwn-cntnt">
+									<i>** No data yet</i>
+								</div>
+							</div>
+							<div class="w3-row cl-drpdwn"> <!-- CHECK PAYMENT -->
+								<span>CHECK PAYMENT <i class="cl-arr cl-arr-dwn w3-right"></i></span>
+								<div class="w3-row cl-drpdwn-cntnt">
+									<i>** No data yet</i>
+								</div>
+							</div>
+							<div class="w3-row cl-drpdwn"> <!-- WITHDRAWAL PENALTIES -->
+								<span>WITHDRAWAL PENALTIES <i class="cl-arr cl-arr-dwn w3-right"></i></span>
+								<div class="w3-row cl-drpdwn-cntnt">
+									<i>** No data yet</i>
+								</div>
+							</div>
+						</div>
+						<div class="w3-row cl-div cl-div-4 hdn"> <!-- PAYMENT CENTER -->
+							<table class="w3-table">
+								<thead>
+									<th>BANK</th>
+									<th>ACCOUNT NAME</th>
+									<th>ACCOUNT NUMBER</th>
+								</thead>
+								<tbody>
+									<tr>
+										<td>ASIAN UNITED BANK</td>
+										<td>Liceo de Cagayan University, Inc.</td>
+										<td>320-01-000141-0</td>
+									</tr>
+									<tr>
+										<td>BDO - Velez</td>
+										<td>Liceo de Cagayan University</td>
+										<td>2840040111</td>
+									</tr>
+									<tr>
+										<td>Southbank</td>
+										<td>Liceo de Cagayan University, Inc.</td>
+										<td>113-50-0000006</td>
+									</tr>
+									<tr>
+										<td>RCBC Savings</td>
+										<td>Liceo de Cagayan University</td>
+										<td>1123019293</td>
+									</tr>
+									<tr>
+										<td>Metrobank</td>
+										<td>Liceo de Cagayan University</td>
+										<td>376-3-37650260-1</td>
+									</tr>
+									<tr>
+										<td>East West Bank</td>
+										<td>Liceo de Cagayan University</td>
+										<td>200010432967</td>
+									</tr>
+									<tr>
+										<td>Landbank</td>
+										<td>Liceo de Cagayan University</td>
+										<td>3142101458</td>
+									</tr>
+									<tr>
+										<td>SM Payment Centers</td>
+										<td>Liceo de Cagayan University</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="w3-row cl-div cl-div-5 hdn"> <!-- FAMILY DISCOUNT -->
+							** No data yet
+						</div>
+						<div class="w3-row cl-div cl-div-7 hdn"> <!-- REFUND POLICY -->
+							** No data yet
+						</div>
+						<div class="w3-row cl-div cl-div-6 hdn"> <!-- CONTACT US -->
+							<!-- <h4 class="cl-bld cl-rd">Let us hear your thoughts...</h4> -->
+							<h6 class="cl-bld">Contact Information</h6>
+							<p>Phone Number<br>Email Address</p>
+							<input type="text" class="w3-input" placeholder="Email Address">
+							<input type="text" class="w3-input" placeholder="Your Name">
+							<textarea class="w3-input" rows="10" placeholder="Your Thoughts"></textarea>
+							<button class="cl-btn w3-right">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="divfooter" class="w3-row" ng-include="'footer.html'">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
