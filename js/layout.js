@@ -110,6 +110,14 @@ $(document).ready(function() {
     	$("#divfinance #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt").css("display", "block");
     });
 
+    $("#divfaq #sde-nav li").click(function() {
+    	var navid = $(this).attr('id');
+ 		$(this).addClass("cl-slctd");
+    	$("#divfaq ul li").not("#" + navid).removeClass("cl-slctd");
+    	$("#divfaq .cl-div").not("." + navid).hide();
+    	$("." + navid).fadeIn("fast");
+    });
+
     $("#divmemo #nav-lst li").click(function() {
         var navid = $(this).attr('id');
         $(this).addClass("cl-slctd");

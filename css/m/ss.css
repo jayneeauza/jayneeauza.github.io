@@ -544,6 +544,7 @@
 	margin-right:2em;
 }
 
+#divfaq,
 #divinquiry,
 #divadmin,
 #divevent,
@@ -607,6 +608,7 @@
 	padding:0em 1em;
 }
 
+#divfaq #divbody .cl-bld,
 #divfinance #divbody .cl-bld,
 #divregistrar #divbody .cl-bld,
 #divscholar #divbody .cl-bld,
@@ -687,6 +689,7 @@
 	padding:0;
 }
 
+#divfaq #divbody .w3-row .column,
 #divregistrar #divbody .right .cl-div .cl-drpdwn-cntnt .left,
 #divfinance #divbody .right .cl-div .cl-drpdwn-cntnt .left,
 #divscholar #divbody .right .cl-div .cl-drpdwn-cntnt .left,
@@ -888,12 +891,14 @@
 	padding:0em;
 }
 
+#divfaq #divbody .cl-clmn-1 ul,
 #divfinance #divbody .left ul,
 #divregistrar #divbody .left ul,
 #divscholar #divbody .left ul {
 	margin:0.5em 1em 0em 1em;
 }
 
+#divfaq #divbody > .w3-row:nth-child(1),
 #divfinance #divbody > .w3-row:nth-child(1),
 #divregistrar #divbody > .w3-row:nth-child(1),
 #divscholar #divbody > .w3-row:nth-child(1) {
@@ -901,6 +906,10 @@
 	margin-bottom:1em;
 	padding-left:1em;
 	display:block;
+}
+
+#divfaq #divbody .cl-clmn-3 {
+	padding:0;
 }
 
 #divfooter .column {
