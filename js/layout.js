@@ -3,6 +3,14 @@ $(document).ready(function() {
 		$("#divadminprofile").css("display", "block");
 	});
 
+	$(".cl-shw-mod").click(function() {
+        $("#divmemo #divmodal").fadeIn("fast");
+    });
+
+	$(".cl-close-modal").click(function () {
+        $("#divmodal").css('display', 'none');
+    });
+
 	$(".cl-cls").click(function() {
 		$(".w3-modal").css("display", "none");
 	});

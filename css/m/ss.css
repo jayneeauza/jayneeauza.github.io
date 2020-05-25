@@ -636,6 +636,7 @@
 	margin-right:2em;
 }
 
+#divmemo,
 #divfaq,
 #divinquiry,
 #divadmin,
@@ -700,6 +701,7 @@
 	padding:0em 1em;
 }
 
+#divmemo #divbody .cl-bld,
 #divfaq #divbody .cl-bld,
 #divfinance #divbody .cl-bld,
 #divregistrar #divbody .cl-bld,
@@ -781,6 +783,8 @@
 	padding:0;
 }
 
+#divmemo #divbody .cl-mem-lst .cl-clmn-2,
+#divmemo #divbody .w3-row .column,
 #divcalendar #divbody .col-1,
 #divfaq #divbody .w3-row .column,
 #divregistrar #divbody .right .cl-div .cl-drpdwn-cntnt .left,
@@ -1025,6 +1029,91 @@
 #divcalendar #divbody .col-2 ul {
 	margin:0;
 	padding:0;
+}
+
+#divmemo #divbody .column {
+	width:100%;
+	padding:1em 1em;
+	overflow:hidden;
+}
+
+#divmemo #divbody .cl-clmn-1 img {
+    width:100%;
+}
+
+#divmemo #divbody .cl-mem-ltst .cl-clmn-2 img,
+#divmemo #divbody .cl-mem-lst .cl-clmn-2 img {
+    width:15px;
+}
+
+#divmemo #divbody .cl-mem-lst .cl-clmn-3 div {
+    text-align:center;
+    transition:0.5s;
+    width:100%;
+    height:100%;
+}
+
+#divmemo #divbody .cl-mem-lst .cl-clmn-2 {
+    width:70%;
+    padding:1em 1em;
+    font-family:Nunito;
+    width:100%;
+}
+
+#divmemo #divbody .cl-mem-lst .cl-clmn-3 img {
+	padding:0;
+}
+
+#divmemo #divbody .cl-mem-lst .cl-clmn-3 {
+	padding:0;
+	height:100%;
+}
+
+#divmemo #divbody .cl-brdr h3 {
+    margin-left:1em;
+}
+
+#divmemo #divbody .cl-brdr input {
+    padding:0.8em 2em;
+   	margin-bottom:1em;
+    border-radius:50px;
+    border:1px solid #DCDCDC;
+    width:100%;
+    font-family:Montserrat;
+    font-size:12px;
+    outline:none;
+}
+
+#divmemo #divbody .cl-btn {
+    border:1px solid #8D221C;
+    color:#8D221C;
+    width:100%;
+    background:transparent;
+    font-family:Nunito;
+    padding:0.5em 1.5em;
+    outline:none;
+    transition:0.5s;
+}
+
+#divmemo #divbody #nav-lst {
+    list-style:none;
+}
+
+#divmemo #divbody #nav-lst li {
+    background-color:transparent;
+    font-family:Nunito;
+    padding:1em 2em 1em 2em;
+    height:60px;
+    cursor:pointer;
+    transition:0.5s;
+    outline:none;
+    display:inline;
+}
+
+#divmemo #divbody #nav-lst li:hover {
+    border-bottom:2px solid #8D221C;
+    color:#8D221C;
+    font-weight:bold;
 }
 
 #divfooter .column {
