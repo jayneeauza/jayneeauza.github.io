@@ -154,8 +154,7 @@ $(document).ready(function() {
 		nlink(1);
 	}, 5000);
 // PRELOADER
-    preloaderFadeOutTime = 4000;
-    hidePreloader();
+    
 });
 
 var slideIndex = 1;
