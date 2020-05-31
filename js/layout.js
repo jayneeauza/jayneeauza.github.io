@@ -153,10 +153,18 @@ $(document).ready(function() {
 	setInterval(function() {
 		nlink(1);
 	}, 5000);
+// PRELOADER
+    preloaderFadeOutTime = 4000;
+    hidePreloader();
 });
 
 var slideIndex = 1;
 var sIndex = 1;
+
+function hidePreloader() {
+    var preloader = $('.spinner-wrapper');
+    preloader.fadeOut(preloaderFadeOutTime);
+}
 
 function plusDivs(n) {
 	showDivs(slideIndex += n);
