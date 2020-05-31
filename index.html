@@ -13,8 +13,22 @@
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/layout.js"></script>
     <script type="text/javascript" src="js/angular.min.js"></script>
+    <script>
+		$(document).ready(function() {
+			//Preloader
+			preloaderFadeOutTime = 500;
+			function hidePreloader() {
+				var preloader = $('.spinner-wrapper');
+				preloader.fadeOut(preloaderFadeOutTime);
+			}
+			hidePreloader();
+		});
+	</script>
 </head>
 <body>
+	<div class="spinner-wrapper">
+		<div class="spinner"></div>
+	</div>
 	<div id="divindx" ng-app="">
 		<div id="divnav" class="w3-row w3-top" ng-include="'nav.html'">
 		</div>

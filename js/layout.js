@@ -135,6 +135,15 @@ $(document).ready(function() {
         $("#divdemo #divbody .cl-mem-lst").css("display", "block");
     });
 
+    $("#divdept #sde-nav li").click(function() {
+    	var navid = $(this).attr('id');
+ 		$(this).addClass("cl-slctd");
+    	$("#divdept ul li").not("#" + navid).removeClass("cl-slctd");
+    	$("#divdept .cl-div").not("." + navid).hide();
+    	$("." + navid).fadeIn("fast");
+    	$("#divdept #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt").css("display", "block");
+    });
+
 	showDivs(slideIndex);
 	showPage(sIndex);
 
