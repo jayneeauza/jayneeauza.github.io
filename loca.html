@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="icons/ico-liceo.png" />
+	<title>Liceo de Cagayan University</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/scroll.css">
+    <link rel="stylesheet" type="text/css" href="css/layoutcontent.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:1022px) and (max-width:1280px)" href="css/layoutcontent.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:1021px)" href="css/m/ss.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/layout.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+</head>
+<body>
+	<div id="divloca" ng-app="">
+		<div id="divnav" class="w3-row w3-top" ng-include="'nav.html'">
+		</div>
+		<div class="cl-bod-cntnt w3-row">
+			<div id="divbody" class="w3-row">
+				<div class="w3-row w3-display-container">
+					<img src="images/rodelsa.png" class="w3-display-middle">
+					<div class="cl-txt">
+						<h2 class="cl-bld">CULTURAL AFFAIRS</h2>
+						<p>Total Human Formation thru Culture and the Arts towards National Identity and <br>Pride and Respect for Global Cultures</p>
+						<button>LEARN MORE</button>
+					</div>
+					<div class="cl-div-nav">
+						<div class="column clmn-1">
+							<h6 class="cl-bld">CONTACT US</h6>
+							<p>Address Address Address<br>0290 0283 2938<br>loca@liceo.edu.ph</p>
+						</div>
+						<div class="column clmn-2">
+							<h6 class="cl-bld">UPCOMING EVENTS</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incididunt ut labore et dolore</p>
+							<span><img src="icons/ico-calendar.png" width="15"/> May 20, 2020</span>
+						</div>
+						<div class="column clmn-3">
+							<h6 class="cl-bld">LA CASTILLA</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incididunt ut labore et dolore</p>
+						</div>
+					</div>
+				</div>
+				<div class="w3-row">
+					<h2 class="w3-center">OUR PROGRAMS</h2>
+					<p class="w3-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod <br>tempor incididunt ut labore et dolore</p>
+					<div class="w3-row">
+						<div class="column">
+							<div class="w3-row"> 
+								<img src="images/rodelsahall.jpg">
+							</div>
+							<div class="w3-row">
+								<span>ARTISTIC EXCELLENCE</span>
+							</div>
+						</div>
+						<div class="column">
+							<div class="w3-row"> 
+								<img src="images/rodelsahall.jpg">
+							</div>
+							<div class="w3-row">
+								<span>CULTURAL STUDIES AND <br>EDUCATION</span>
+							</div>
+						</div>
+						<div class="column">
+							<div class="w3-row"> 
+								<img src="images/rodelsahall.jpg">
+							</div>
+							<div class="w3-row">
+								<span>CULTURE AND DEVELOPMENT</span>
+							</div>
+						</div>
+						<div class="column">
+							<div class="w3-row"> 
+								<img src="images/rodelsahall.jpg">
+							</div>
+							<div class="w3-row">
+								<span>LICEO PROMOTIONS</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="w3-row">
+					<h2 class="w3-center">OUR SERVICES</h2>
+					<div class="w3-row">
+						<div class="column">
+							<span>Venue Operations and <br>Management</span><br>
+							<span class="cl-more">LEARN MORE</span>
+						</div>
+						<div class="column">
+							<span>Production and Program <br>Support Services</span><br>
+							<span class="cl-more">LEARN MORE</span>
+						</div>
+						<div class="column">
+							<span>Technical Support and<br>Ushering Services</span><br>
+							<span class="cl-more">LEARN MORE</span>
+						</div>
+					</div>
+				</div>
+				<div class="w3-row">
+					<video width="100%" height="400" controls>
+						<source src="movie.mp4" type="video/mp4">
+						<source src="movie.ogg" type="video/ogg">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<div class="w3-row">
+					<h2 class="w3-center">CONTACT US</h2>
+					<div class="w3-row">
+						<div class="column">
+							<p>Lorem ipsum dolor sit amet <br>0283 02340 2834 <br>lacastilla@liceo.edu.ph</p>
+							<img src="icons/ico-ig.png" width="20">
+							<img src="icons/ico-fb.png" width="10">
+						</div>
+						<div class="column">
+							<input type="text" class="w3-input" placeholder="Your Email Address">
+							<input type="text" class="w3-input" placeholder="Your Name">
+							<textarea class="w3-input" rows="10" placeholder="Your Message"></textarea>
+							<button class="cl-btn w3-right">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="divfooter" class="w3-row" ng-include="'footer.html'">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
