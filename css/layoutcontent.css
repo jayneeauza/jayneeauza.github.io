@@ -1212,6 +1212,18 @@ p {
 	margin:0em 2em 0em 2em;
 }
 
+#divnav2 .column:nth-child(4) .w3-row,
+#divnav2 .column:nth-child(1) .w3-row,
+#divnav2 .column:nth-child(2) .w3-row,
+#divnav2 .column:nth-child(3) .w3-row {
+	padding:0.8em 0em;
+}
+
+#divnav2 .column .w3-row {
+	height:30px;
+	/*border:1px solid black;*/
+}
+
 #divnav2 .column span {
 	font-family:Nunito;
 	font-weight:bold;
@@ -2453,6 +2465,16 @@ p {
 	padding:0.5em 0.5em;
 	text-align:center;
 	/*border:1px solid red;*/
+}
+
+#divsps #divbody a {
+	text-decoration:none;
+	transition:0.8s;
+}
+
+#divsps #divbody .cl-tbl-lst .column:hover > a {
+	color:#8D221C;
+	font-weight:bold;
 }
 
 #divlinkages #divbody .cl-tbl-lst .column {
