@@ -3374,12 +3374,13 @@ p {
 #divloca #divbody .w3-row:nth-child(1) span {
 	font-family:Nunito;
 	font-size:14px;
-	/*color:#FFFFFF;*/
-	color:#8D221C;
+	color:#FFFFFF;
+	/*color:#8D221C;*/
 }
 
 #divloca #divbody .w3-row:nth-child(1) h6 {
-	color:#8D221C;
+	/*color:#8D221C;*/
+	color:#FFFFFF;
 }
 
 #divloca #divbody .w3-row:nth-child(1) {
@@ -3401,12 +3402,12 @@ p {
 
 #divloca #divbody .w3-row:nth-child(1) .clmn-1 {
 	width:20%;
-	border-right:1px solid #8D221C;
+	border-right:1px solid #FFFFFF;
 }
 
 #divloca #divbody .w3-row:nth-child(1) .clmn-2 {
 	width:50%;
-	border-right:1px solid #8D221C;
+	border-right:1px solid #FFFFFF;
 }
 
 #divloca #divbody .w3-row:nth-child(1) .clmn-3 {
@@ -3416,7 +3417,8 @@ p {
 #divloca #divbody .cl-txt {
 	position:absolute;
 	top:140px;
-	color:#8D221C;
+	/*color:#8D221C;*/
+	color:#FFF;
 	padding:0em 2em;
 }
 
@@ -3425,9 +3427,11 @@ p {
 }
 
 #divloca #divbody .cl-txt button {
-	border:1px solid #8D221C;
+	/*border:1px solid #8D221C;*/
+	/*color:#8D221C;*/
+	color:#FFFFFF;
+	border:1px solid #FFFFFF;
 	background-color:transparent;
-	color:#8D221C;
 	font-family:Nunito;
 	padding:0.5em 4em;
 	font-size:14px;
@@ -3437,8 +3441,9 @@ p {
 }
 
 #divloca #divbody .cl-txt button:hover {
-	color:#FFFFFF;
-	background-color:#8D221C;
+	color:#8D221C;
+	background-color:#FFFFFF;
+	font-weight:bold;
 }
 
 #divloca #divbody .cl-div-nav {
@@ -3532,7 +3537,7 @@ p {
 }
 
 #divloca #divbody .transbox {
-	background-color:#FFF;
+	background-color:#000;
 	opacity: 0.8;
 	width:100%;
 	height:100%; 
