@@ -636,6 +636,7 @@
 	margin-right:2em;
 }
 
+#divloca,
 #divmemo,
 #divfaq,
 #divinquiry,
@@ -701,6 +702,7 @@
 	padding:0em 1em;
 }
 
+#divloca #divbody .cl-bld,
 #divmemo #divbody .cl-bld,
 #divfaq #divbody .cl-bld,
 #divfinance #divbody .cl-bld,
@@ -783,6 +785,78 @@
 	padding:0;
 }
 
+#divloca .cl-bod-cntnt {
+	margin-top:4.2em;
+}
+
+#divloca #divbody .w3-row:nth-child(1) {
+	height:240px;
+}
+
+#divloca #divbody .cl-txt {
+	position:absolute;
+	top:1px;
+	text-align:justify;
+}
+
+#divloca #divbody > .w3-row:nth-child(1) h2 {
+	margin:1em 0em 0em 0em;
+	padding:0;
+	font-size:28px;
+}
+
+#divloca #divbody > .w3-row:nth-child(3) h2 {
+	margin:0;
+}
+
+#divloca #divbody > .w3-row:nth-child(4) {
+	padding:2em 0em 0em 0em;
+}
+
+#divloca #divbody > .w3-row:nth-child(4) video {
+	height:200px;
+}
+
+#divloca #divbody > .w3-row:nth-child(5) .w3-row {
+	padding:0;
+}
+
+#divloca #divbody > .w3-row:nth-child(5) .w3-row > .column:nth-child(1) {
+	text-align:center;
+}
+
+#divloca #divbody .cl-div-nav {
+	display:block;
+}
+
+#divloca #divbody > .w3-row:nth-child(2) {
+	padding:0;
+}
+
+#divloca #divbody .cl-txt button {
+	width:100%;
+}
+
+#divloca #divbody > .w3-row:nth-child(3) .w3-row {
+	padding:0em 1em;
+}
+
+#divloca #divbody > .w3-row:nth-child(3) .column {
+	float:left;
+	font-family:Montserrat;
+	border-top:8px solid #FCCF6A;
+	border-left:0;
+	margin-top:1em;
+	width:100%;
+	padding:0.5em 1em;
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+#divloca #divbody > .w3-row:nth-child(5) .column,
+#divloca #divbody > .w3-row:nth-child(2) .column,
+#divloca #divbody .w3-row:nth-child(1) .clmn-1,
+#divloca #divbody .w3-row:nth-child(1) .clmn-2,
+#divloca #divbody .w3-row:nth-child(1) .clmn-3,
 #divmemo #divbody .cl-mem-lst .cl-clmn-2,
 #divmemo #divbody .w3-row .column,
 #divcalendar #divbody .col-1,
