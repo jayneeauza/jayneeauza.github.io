@@ -646,6 +646,8 @@
 #divevent,
 #divevntlst,
 #divdeptlist,
+#divhrmd,
+#divclinic,
 #divregistrar,
 #divfinance,
 #divscholar,
@@ -710,6 +712,8 @@
 #divmemo #divbody .cl-bld,
 #divfaq #divbody .cl-bld,
 #divfinance #divbody .cl-bld,
+#divhrmd #divbody .cl-bld,
+#divclinic #divbody .cl-bld,
 #divregistrar #divbody .cl-bld,
 #divscholar #divbody .cl-bld,
 #divinquiry #divbody .cl-bld,
@@ -730,6 +734,8 @@
 }
 
 #divfinance #divbody .cl-btn,
+#divhrmd #divbody .cl-btn,
+#divclinic #divbody .cl-btn,
 #divregistrar #divbody .cl-btn,
 #divscholar #divbody .cl-btn,
 #divinquiry #divbody .cl-btn,
@@ -920,10 +926,14 @@
 #divmemo #divbody .w3-row .column,
 #divcalendar #divbody .col-1,
 #divfaq #divbody .w3-row .column,
+#divhrmd #divbody .right .cl-div .cl-drpdwn-cntnt .left,
+#divclinic #divbody .right .cl-div .cl-drpdwn-cntnt .left,
 #divregistrar #divbody .right .cl-div .cl-drpdwn-cntnt .left,
 #divfinance #divbody .right .cl-div .cl-drpdwn-cntnt .left,
 #divscholar #divbody .right .cl-div .cl-drpdwn-cntnt .left,
 #divfinance #divbody .w3-row .column,
+#divhrmd #divbody .w3-row .column,
+#divclinic #divbody .w3-row .column,
 #divregistrar #divbody .w3-row .column,
 #divscholar #divbody .w3-row .column,
 #divnstp #divbody .w3-row:nth-child(5) .column,
@@ -1123,6 +1133,8 @@
 
 #divfaq #divbody .cl-clmn-1 ul,
 #divfinance #divbody .left ul,
+#divhrmd #divbody .left ul,
+#divclinic #divbody .left ul,
 #divregistrar #divbody .left ul,
 #divscholar #divbody .left ul {
 	margin:0.5em 1em 0em 1em;
@@ -1130,6 +1142,8 @@
 
 #divfaq #divbody > .w3-row:nth-child(1),
 #divfinance #divbody > .w3-row:nth-child(1),
+#divhrmd #divbody > .w3-row:nth-child(1),
+#divclinic #divbody > .w3-row:nth-child(1),
 #divregistrar #divbody > .w3-row:nth-child(1),
 #divscholar #divbody > .w3-row:nth-child(1) {
 	border-bottom:1px solid #DCDCDC;

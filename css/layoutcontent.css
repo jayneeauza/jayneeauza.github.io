@@ -315,6 +315,8 @@
 	#divdir #divbody,
 	#divlinkages #divbody,
 	#divfinance #divbody,
+	#divhrmd #divbody,
+	#divclinic #divbody,
 	#divregistrar #divbody,
 	#divscholar #divbody {
 		width:1200px;
@@ -722,6 +724,8 @@
 	#divorg #divbody,
 	#divdir #divbody,
 	#divfinance #divbody,
+	#divhrmd #divbody,
+	#divclinic #divbody,
 	#divregistrar #divbody,
 	#divscholar #divbody {
 		width:1200px;
@@ -1997,6 +2001,8 @@ p {
 
 #divloca .cl-bod-cntnt .cl-btn,
 #divfinance .cl-bod-cntnt .cl-btn,
+#divhrmd .cl-bod-cntnt .cl-btn,
+#divclinic .cl-bod-cntnt .cl-btn,
 #divregistrar .cl-bod-cntnt .cl-btn,
 #divscholar .cl-bod-cntnt .cl-btn,
 #divevntlst #divbody .w3-row:nth-child(2) a,
@@ -2026,6 +2032,8 @@ p {
 
 #divloca .cl-bod-cntnt .cl-btn:hover,
 #divfinance .cl-bod-cntnt .cl-btn:hover,
+#divhrmd .cl-bod-cntnt .cl-btn:hover,
+#divclinic .cl-bod-cntnt .cl-btn:hover,
 #divregistrar .cl-bod-cntnt .cl-btn:hover,
 #divscholar .cl-bod-cntnt .cl-btn:hover,
 #divevntlst #divbody .w3-row:nth-child(2) a:hover,
@@ -2239,6 +2247,8 @@ p {
 
 #divfaq #divbody .cl-clmn-1 ul,
 #divfinance #divbody .left ul,
+#divhrmd #divbody .left ul,
+#divclinic #divbody .left ul,
 #divregistrar #divbody .left ul,
 #divscholar #divbody .left ul {
 	margin:2.5em 0em 0em 1em;
@@ -2248,6 +2258,8 @@ p {
 #divdept #divbody #sde-nav li,
 #divfaq #divbody .cl-clmn-1 ul li,
 #divfinance #divbody .left ul li,
+#divhrmd #divbody .left ul li,
+#divclinic #divbody .left ul li,
 #divregistrar #divbody .left ul li,
 #divscholar #divbody .left ul li {
 	list-style:none;
@@ -2262,6 +2274,8 @@ p {
 #divdept #divbody #sde-nav li:hover,
 #divfaq #divbody .cl-clmn-1 ul li:hover,
 #divfinance #divbody .left ul li:hover,
+#divhrmd #divbody .left ul li:hover,
+#divclinic #divbody .left ul li:hover,
 #divregistrar #divbody .left ul li:hover,
 #divscholar #divbody .left ul li:hover {
 	border-left:4px solid #8D221C;
@@ -2270,6 +2284,8 @@ p {
 }
 
 #divfinance #divbody .right ul,
+#divhrmd #divbody .right ul,
+#divclinic #divbody .right ul,
 #divregistrar #divbody .right ul,
 #divscholar #divbody .right ul {
 	margin:0;
@@ -2277,6 +2293,8 @@ p {
 }
 
 #divfinance #divbody .right ul li,
+#divhrmd #divbody .right ul li,
+#divclinic #divbody .right ul li,
 #divregistrar #divbody .right ul li,
 #divscholar #divbody .right ul li {
 	list-style:none;
@@ -2288,6 +2306,8 @@ p {
 #divdept #divbody .cl-slctd,
 #divfaq #divbody .cl-slctd,
 #divfinance #divbody .cl-slctd,
+#divhrmd #divbody .cl-slctd,
+#divclinic #divbody .cl-slctd,
 #divregistrar #divbody .cl-slctd,
 #divscholar #divbody .cl-slctd {
 	border-left:4px solid #8D221C;
@@ -2297,24 +2317,32 @@ p {
 
 #divfaq #divbody .column,
 #divfinance #divbody .column,
+#divhrmd #divbody .column,
+#divclinic #divbody .column,
 #divregistrar #divbody .column,
 #divscholar #divbody .column {
 	float:left;
 }
 
 #divfinance #divbody .left,
+#divhrmd #divbody .left,
+#divclinic #divbody .left,
 #divregistrar #divbody .left,
 #divscholar #divbody .left {
 	width:25%;
 }
 
 #divfinance #divbody .right,
+#divhrmd #divbody .right,
+#divclinic #divbody .right,
 #divregistrar #divbody .right,
 #divscholar #divbody .right {
 	width:75%;
 }
 
 #divfinance #divbody .cl-div-3 p,
+#divhrmd #divbody .cl-div-3 p,
+#divclinic #divbody .cl-div-3 p,
 #divregistrar #divbody .cl-div-3 p,
 #divscholar #divbody .cl-div-3 p {
 	text-align:justify;
@@ -2323,6 +2351,8 @@ p {
 
 #divfaq #divbody .cl-clmn-2 > .w3-row:nth-child(1),
 #divfinance #divbody .right > .w3-row:nth-child(1),
+#divhrmd #divbody .right > .w3-row:nth-child(1),
+#divclinic #divbody .right > .w3-row:nth-child(1),
 #divregistrar #divbody .right > .w3-row:nth-child(1),
 #divscholar #divbody .right > .w3-row:nth-child(1) {
 	border-bottom:1px solid #DCDCDC;
@@ -2332,6 +2362,8 @@ p {
 
 #divdept #divbody .right .cl-div,
 #divfinance #divbody .right .cl-div,
+#divhrmd #divbody .right .cl-div,
+#divclinic #divbody .right .cl-div,
 #divregistrar #divbody .right .cl-div,
 #divscholar #divbody .right .cl-div {
 	margin:0em 1em;
@@ -2339,6 +2371,8 @@ p {
 
 #divdept #divbody .right .cl-div .cl-drpdwn-cntnt .w3-row,
 #divfinance #divbody .right .cl-div .cl-drpdwn-cntnt .w3-row,
+#divhrmd #divbody .right .cl-div .cl-drpdwn-cntnt .w3-row,
+#divclinic #divbody .right .cl-div .cl-drpdwn-cntnt .w3-row,
 #divregistrar #divbody .right .cl-div .cl-drpdwn-cntnt .w3-row,
 #divscholar #divbody .right .cl-div .cl-drpdwn-cntnt .w3-row {
 	padding:1em 0em;
@@ -2346,6 +2380,8 @@ p {
 
 #divdept #divbody .right .cl-div .cl-drpdwn-cntnt .left,
 #divfinance #divbody .right .cl-div .cl-drpdwn-cntnt .left,
+#divhrmd #divbody .right .cl-div .cl-drpdwn-cntnt .left,
+#divclinic #divbody .right .cl-div .cl-drpdwn-cntnt .left,
 #divregistrar #divbody .right .cl-div .cl-drpdwn-cntnt .left,
 #divscholar #divbody .right .cl-div .cl-drpdwn-cntnt .left {
 	width:200px;
@@ -2354,6 +2390,8 @@ p {
 
 #divdept #divbody .right .cl-div .cl-drpdwn-cntnt .right,
 #divfinance #divbody .right .cl-div .cl-drpdwn-cntnt .right,
+#divhrmd #divbody .right .cl-div .cl-drpdwn-cntnt .right,
+#divclinic #divbody .right .cl-div .cl-drpdwn-cntnt .right,
 #divregistrar #divbody .right .cl-div .cl-drpdwn-cntnt .right,
 #divscholar #divbody .right .cl-div .cl-drpdwn-cntnt .right {
 	font-family:Montserrat;
@@ -2364,6 +2402,8 @@ p {
 
 #divdept .cl-drpdwn,
 #divfinance .cl-drpdwn,
+#divhrmd .cl-drpdwn,
+#divclinic .cl-drpdwn,
 #divregistrar .cl-drpdwn,
 #divscholar .cl-drpdwn {
 	padding:0.5em 1em;
@@ -2375,6 +2415,8 @@ p {
 
 #divdept .cl-drpdwn span,
 #divfinance .cl-drpdwn span,
+#divhrmd .cl-drpdwn span,
+#divclinic .cl-drpdwn span,
 #divregistrar .cl-drpdwn span,
 #divscholar .cl-drpdwn span {
 	font-family:Nunito;
@@ -2392,6 +2434,8 @@ p {
 
 #divdept .cl-drpdwn .cl-drpdwn-cntnt,
 #divfinance .cl-drpdwn .cl-drpdwn-cntnt,
+#divhrmd .cl-drpdwn .cl-drpdwn-cntnt,
+#divclinic .cl-drpdwn .cl-drpdwn-cntnt,
 #divregistrar .cl-drpdwn .cl-drpdwn-cntnt,
 #divscholar .cl-drpdwn .cl-drpdwn-cntnt {
 	display:none;
@@ -2402,6 +2446,8 @@ p {
 
 #divdept .cl-drpdwn .cl-arr,
 #divfinance .cl-drpdwn .cl-arr,
+#divhrmd .cl-drpdwn .cl-arr,
+#divclinic .cl-drpdwn .cl-arr,
 #divregistrar .cl-drpdwn .cl-arr,
 #divscholar .cl-drpdwn .cl-arr {
 	margin-top:0.4em;
@@ -2409,6 +2455,8 @@ p {
 
 #divdept #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt,
 #divfinance #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt,
+#divhrmd #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt,
+#divclinic #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt,
 #divregistrar #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt,
 #divscholar #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt {
 	display:block;
@@ -2418,6 +2466,10 @@ p {
 #divloca #divbody > .w3-row:nth-child(5) textarea,
 #divfinance #divbody .right .cl-div-6 textarea,
 #divfinance #divbody .right .cl-div-6 input,
+#divhrmd #divbody .right .cl-div-6 textarea,
+#divhrmd #divbody .right .cl-div-6 input,
+#divclinic #divbody .right .cl-div-6 textarea,
+#divclinic #divbody .right .cl-div-6 input,
 #divregistrar #divbody .right .cl-div-6 textarea,
 #divregistrar #divbody .right .cl-div-6 input,
 #divscholar #divbody .right .cl-div-6 input,
@@ -2474,6 +2526,8 @@ p {
 	text-align:center;
 }
 
+#divhrmd #divbody .cl-h3,
+#divclinic #divbody .cl-h3,
 #divregistrar #divbody .cl-h3,
 #divscholar #divbody .cl-h3,
 #divsophia #divbody .w3-row:nth-child(3) .cl-h3,
@@ -2485,6 +2539,8 @@ p {
 	margin-left:-1em;
 }
 
+#divhrmd #divbody .w3-center .cl-btn,
+#divclinic #divbody .w3-center .cl-btn,
 #divregistrar #divbody .w3-center .cl-btn,
 #divscholar #divbody .w3-center .cl-btn,
 #divsophia #divbody .w3-row:nth-child(3) .cl-btn,
@@ -3593,6 +3649,11 @@ p {
 
 #divloca #divbody > .w3-row:nth-child(1):hover > img {
 	width:120%;
+}
+
+#divloca #divbody a {
+	text-decoration:none;
+	cursor:pointer;
 }
 
 #divcastilla {

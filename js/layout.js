@@ -118,6 +118,24 @@ $(document).ready(function() {
     	$("#divfinance #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt").css("display", "block");
     });
 
+    $("#divclinic #sde-nav li").click(function() {
+        var navid = $(this).attr('id');
+        $(this).addClass("cl-slctd");
+        $("#divclinic ul li").not("#" + navid).removeClass("cl-slctd");
+        $("#divclinic .cl-div").not("." + navid).hide();
+        $("." + navid).fadeIn("fast");
+        $("#divclinic #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt").css("display", "block");
+    });
+
+    $("#divhrmd #sde-nav li").click(function() {
+        var navid = $(this).attr('id');
+        $(this).addClass("cl-slctd");
+        $("#divhrmd ul li").not("#" + navid).removeClass("cl-slctd");
+        $("#divhrmd .cl-div").not("." + navid).hide();
+        $("." + navid).fadeIn("fast");
+        $("#divhrmd #divbody .cl-div .cl-drpdwn:nth-child(1) > .cl-drpdwn-cntnt").css("display", "block");
+    });
+
     $("#divfaq #sde-nav li").click(function() {
     	var navid = $(this).attr('id');
  		$(this).addClass("cl-slctd");
