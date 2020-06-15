@@ -9,14 +9,13 @@
 
 	#divindx #divslide {
 		width:100%;
-		height:200px;
-		/*overflow:hidden;*/
+		overflow:hidden;
 	}
 
 	#divindx .mySlides {
 		width:none;
 		/*width:auto;*/
-		height:200px;
+		/*height:200px;*/
 		text-align:center;
 		margin:auto;
 		display:block;
@@ -124,8 +123,16 @@
 @media only screen and (min-width:600px) {
 	#divindx #divslide {
 		width:100%;
-		height:250px;
 		overflow:hidden;
+	}
+
+	#divindx .mySlides {
+		width:none;
+		/*width:auto;*/
+		/*height:200px;*/
+		text-align:center;
+		margin:auto;
+		display:block;
 	}
 
 	#divindx #divvids video {

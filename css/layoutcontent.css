@@ -1402,6 +1402,10 @@ p {
 	box-shadow:none;
 }
 
+/*#divprog .column img {
+	width:100%;
+}*/
+
 #divprog .overlay span {
 	font-family:NunitoL;
 	font-size:18px;
@@ -2080,7 +2084,7 @@ p {
 #divsps .cl-bod-cntnt .cl-btn,
 #divorg .cl-bod-cntnt .cl-btn,
 #divresearch .cl-bod-cntnt .cl-btn,
-#divresearch .cl-bod-cntnt .cl-txt a,
+/*#divresearch .cl-bod-cntnt .cl-txt a,*/
 #divrodelsa .cl-bod-cntnt .cl-btn,
 #divsophia .cl-bod-cntnt .cl-btn,
 #diveteeap .cl-bod-cntnt .cl-btn,
