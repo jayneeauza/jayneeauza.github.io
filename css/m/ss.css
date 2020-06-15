@@ -534,6 +534,10 @@
 	color:#8D221C;
 }
 
+a {
+	text-decoration:none;
+}
+
 #divnewspage .cl-div-bod {
 	width:100%;
 	padding:0em 1em 0em 1em;
