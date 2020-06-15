@@ -3221,8 +3221,12 @@ p {
 }
 
 #divevent #divbody .w3-row:nth-child(1) {
-	height:400px;
+	/*height:400px;*/
 	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+#divevent #divbody .w3-row:nth-child(1) img { 
+	width:100%;
 }
 
 #divevent #divbody .w3-row:nth-child(2) {

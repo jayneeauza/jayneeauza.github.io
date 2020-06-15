@@ -7,6 +7,21 @@
 		margin-bottom:0.5em;
 	}
 
+	#divindx #divslide {
+		width:100%;
+		height:200px;
+		/*overflow:hidden;*/
+	}
+
+	#divindx .mySlides {
+		width:none;
+		/*width:auto;*/
+		height:200px;
+		text-align:center;
+		margin:auto;
+		display:block;
+	}
+
 	#divprog {
 		padding:0;
 	}
@@ -450,11 +465,6 @@
 
 .cl-bod-cntnt {
 	margin-top:4.4em;
-}
-
-#divindx #divslide {
-	width:100%;
-	overflow:hidden;
 }
 
 #divindx #divprog {
@@ -1172,6 +1182,11 @@ a {
 #divevntlst #divbody .w3-row:nth-child(1), 
 #divevntlst #divbody .w3-row .column {
 	width:100%;
+}
+
+#divevntlst #divbody .w3-row:nth-child(1) {
+	/*height:100%;*/
+	height:160px;
 }
 
 #divevntlst #divbody .w3-row:nth-child(2) {
